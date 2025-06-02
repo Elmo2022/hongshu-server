@@ -3,7 +3,7 @@ package com.hongshu.common.constant;
 /**
  * 字符常量
  *
- * @Author hongshu
+ * @Author
  */
 public class Constantss {
 

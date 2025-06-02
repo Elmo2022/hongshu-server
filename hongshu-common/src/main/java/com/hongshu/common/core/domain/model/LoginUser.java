@@ -9,7 +9,7 @@ import java.util.Collection;
 import java.util.Set;
 
 /**
- * 登录用户身份权限
+ *
  *
  * @Author hongshu
  */

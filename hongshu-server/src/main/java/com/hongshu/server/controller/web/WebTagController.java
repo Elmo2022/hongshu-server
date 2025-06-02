@@ -1,7 +1,7 @@
 package com.hongshu.server.controller.web;
 
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
-import com.hongshu.common.enums.Result;
+import com.hongshu.common.exception.base.enums.Result;
 import com.hongshu.web.domain.entity.WebTag;
 import com.hongshu.web.domain.vo.NoteVo;
 import com.hongshu.web.domain.vo.TagVo;

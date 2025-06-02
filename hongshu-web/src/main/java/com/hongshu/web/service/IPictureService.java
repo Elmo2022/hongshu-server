@@ -9,7 +9,7 @@ import java.util.List;
 /**
  * 图片表 服务类
  *
- * @Author hongshu
+ * @Author
  */
 public interface IPictureService extends SuperService<WebPicture> {
 

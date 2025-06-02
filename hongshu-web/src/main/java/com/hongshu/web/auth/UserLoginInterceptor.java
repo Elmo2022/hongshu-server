@@ -2,7 +2,7 @@ package com.hongshu.web.auth;
 
 import com.hongshu.common.constant.TokenConstant;
 import com.hongshu.common.constant.UserConstant;
-import com.hongshu.common.enums.ResultCodeEnum;
+import com.hongshu.common.exception.base.enums.ResultCodeEnum;
 import com.hongshu.common.exception.ServiceException;
 import com.hongshu.common.utils.JwtUtils;
 import com.hongshu.common.utils.WebUtils;

@@ -8,7 +8,7 @@ import java.util.List;
 /**
  * 树形结构
  *
- * @Author hongshu
+ * @Author
  */
 @Data
 public class Tree implements Serializable {

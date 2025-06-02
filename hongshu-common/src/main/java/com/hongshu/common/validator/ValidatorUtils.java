@@ -8,7 +8,7 @@
 
 package com.hongshu.common.validator;
 
-import com.hongshu.common.enums.ResultCodeEnum;
+import com.hongshu.common.exception.base.enums.ResultCodeEnum;
 import com.hongshu.common.exception.web.HongshuException;
 import org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator;
 import org.springframework.context.i18n.LocaleContextHolder;

@@ -1,6 +1,6 @@
 package com.hongshu.server.controller.web;
 
-import com.hongshu.common.enums.Result;
+import com.hongshu.common.exception.base.enums.Result;
 import com.hongshu.web.service.IWebOssService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;

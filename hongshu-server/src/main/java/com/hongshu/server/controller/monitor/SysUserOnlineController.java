@@ -7,7 +7,7 @@ import com.hongshu.common.core.domain.AjaxResult;
 import com.hongshu.common.core.domain.model.LoginUser;
 import com.hongshu.common.core.page.TableDataInfo;
 import com.hongshu.common.core.redis.RedisCache;
-import com.hongshu.common.enums.BusinessType;
+import com.hongshu.common.exception.base.enums.BusinessType;
 import com.hongshu.common.utils.StringUtils;
 import com.hongshu.system.domain.SysUserOnline;
 import com.hongshu.system.service.ISysUserOnlineService;

@@ -3,7 +3,7 @@ package com.hongshu.common.validator;
 /**
  * 错误消息模板
  *
- * @Author hongshu
+ * @Author
  */
 public interface Messages {
 

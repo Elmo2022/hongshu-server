@@ -5,7 +5,7 @@ import com.hongshu.common.constant.CacheConstants;
 import com.hongshu.common.constant.UserConstants;
 import com.hongshu.common.core.redis.RedisCache;
 import com.hongshu.common.core.text.Convert;
-import com.hongshu.common.enums.DataSourceType;
+import com.hongshu.common.exception.base.enums.DataSourceType;
 import com.hongshu.common.exception.ServiceException;
 import com.hongshu.common.utils.StringUtils;
 import com.hongshu.system.domain.SysConfig;

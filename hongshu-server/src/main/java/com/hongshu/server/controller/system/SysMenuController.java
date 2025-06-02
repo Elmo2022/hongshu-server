@@ -5,7 +5,7 @@ import com.hongshu.common.constant.UserConstants;
 import com.hongshu.common.core.controller.BaseController;
 import com.hongshu.common.core.domain.AjaxResult;
 import com.hongshu.common.core.domain.entity.SysMenu;
-import com.hongshu.common.enums.BusinessType;
+import com.hongshu.common.exception.base.enums.BusinessType;
 import com.hongshu.common.utils.StringUtils;
 import com.hongshu.system.service.ISysMenuService;
 import org.springframework.beans.factory.annotation.Autowired;

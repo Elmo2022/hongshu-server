@@ -18,7 +18,7 @@ import java.util.regex.Pattern;
 /**
  * 设置Anonymous注解允许匿名访问的url
  *
- * @Author hongshu
+ * @Author
  */
 @Configuration
 public class PermitAllUrlProperties implements InitializingBean, ApplicationContextAware {

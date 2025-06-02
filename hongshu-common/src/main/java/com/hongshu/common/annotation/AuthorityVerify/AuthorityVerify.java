@@ -8,8 +8,8 @@ import java.lang.annotation.Target;
 /**
  * 自定义权限校验接口
  *
- * @Author hongshu
- * @date 2020年3月21日18:57:15
+ * @Author
+ * @date
  */
 @Target({ElementType.METHOD, ElementType.TYPE})
 @Retention(RetentionPolicy.RUNTIME)

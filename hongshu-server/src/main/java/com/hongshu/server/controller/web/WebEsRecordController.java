@@ -1,6 +1,6 @@
 package com.hongshu.server.controller.web;
 
-import com.hongshu.common.enums.Result;
+import com.hongshu.common.exception.base.enums.Result;
 import com.hongshu.common.validator.myVaildator.noLogin.NoLoginIntercept;
 import com.hongshu.web.domain.dto.EsRecordDTO;
 import com.hongshu.web.service.IWebEsRecordService;

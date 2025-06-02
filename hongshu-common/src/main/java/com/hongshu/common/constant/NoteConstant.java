@@ -1,7 +1,7 @@
 package com.hongshu.common.constant;
 
 /**
- * @Author hongshu
+ * @Author
  */
 public interface NoteConstant {
 

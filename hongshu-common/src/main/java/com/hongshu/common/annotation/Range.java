@@ -14,7 +14,7 @@ import static java.lang.annotation.ElementType.*;
 /**
  * 字符串范围约束，限制长度【注解】
  *
- * @Author hongshu
+ * @Author
  */
 @Target({TYPE, ANNOTATION_TYPE, FIELD})
 @Retention(RetentionPolicy.RUNTIME)

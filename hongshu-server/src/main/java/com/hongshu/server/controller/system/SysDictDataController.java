@@ -5,7 +5,7 @@ import com.hongshu.common.core.controller.BaseController;
 import com.hongshu.common.core.domain.AjaxResult;
 import com.hongshu.common.core.domain.entity.SysDictData;
 import com.hongshu.common.core.page.TableDataInfo;
-import com.hongshu.common.enums.BusinessType;
+import com.hongshu.common.exception.base.enums.BusinessType;
 import com.hongshu.common.utils.StringUtils;
 import com.hongshu.common.utils.poi.ExcelUtil;
 import com.hongshu.system.service.ISysDictDataService;

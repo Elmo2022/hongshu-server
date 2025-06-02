@@ -1,6 +1,6 @@
 package com.hongshu.common.exception;
 
-import com.hongshu.common.enums.ResponseEnum;
+import com.hongshu.common.exception.base.enums.ResponseEnum;
 import lombok.Data;
 
 /**

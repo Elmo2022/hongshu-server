@@ -1,14 +1,14 @@
 package com.hongshu.common.annotation;
 
-import com.hongshu.common.enums.BusinessType;
-import com.hongshu.common.enums.OperatorType;
+import com.hongshu.common.exception.base.enums.BusinessType;
+import com.hongshu.common.exception.base.enums.OperatorType;
 
 import java.lang.annotation.*;
 
 /**
  * 自定义操作日志记录注解
  *
- * @Author hongshu
+ * @Author
  */
 @Target({ElementType.PARAMETER, ElementType.METHOD})
 @Retention(RetentionPolicy.RUNTIME)

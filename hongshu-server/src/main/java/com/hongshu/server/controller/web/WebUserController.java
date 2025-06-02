@@ -4,7 +4,7 @@ import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.github.pagehelper.PageInfo;
 import com.hongshu.common.constant.HttpStatus;
 import com.hongshu.common.core.page.TableDataInfo;
-import com.hongshu.common.enums.Result;
+import com.hongshu.common.exception.base.enums.Result;
 import com.hongshu.web.domain.entity.WebUser;
 import com.hongshu.web.domain.vo.NoteSearchVo;
 import com.hongshu.web.service.IWebUserService;

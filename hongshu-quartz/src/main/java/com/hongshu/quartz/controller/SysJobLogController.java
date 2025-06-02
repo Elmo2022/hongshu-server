@@ -4,7 +4,7 @@ import com.hongshu.common.annotation.Log;
 import com.hongshu.common.core.controller.BaseController;
 import com.hongshu.common.core.domain.AjaxResult;
 import com.hongshu.common.core.page.TableDataInfo;
-import com.hongshu.common.enums.BusinessType;
+import com.hongshu.common.exception.base.enums.BusinessType;
 import com.hongshu.common.utils.poi.ExcelUtil;
 import com.hongshu.quartz.domain.SysJobLog;
 import com.hongshu.quartz.service.ISysJobLogService;

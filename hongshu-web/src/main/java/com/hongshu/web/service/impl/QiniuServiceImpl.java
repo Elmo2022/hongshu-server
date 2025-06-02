@@ -29,8 +29,8 @@ import java.util.List;
 /**
  * 七牛云实现类
  *
- * @Author hongshu
- * @since 2020年1月20日20:05:45
+ * @Author
+ * @since
  */
 @Service
 //@RefreshScope

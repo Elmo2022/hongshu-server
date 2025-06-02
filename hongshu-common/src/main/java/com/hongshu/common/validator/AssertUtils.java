@@ -3,7 +3,7 @@ package com.hongshu.common.validator;
 import cn.hutool.core.collection.CollUtil;
 import cn.hutool.core.map.MapUtil;
 import cn.hutool.core.util.ArrayUtil;
-import com.hongshu.common.enums.ResultCodeEnum;
+import com.hongshu.common.exception.base.enums.ResultCodeEnum;
 import com.hongshu.common.exception.web.HongshuException;
 import org.apache.commons.lang3.StringUtils;
 

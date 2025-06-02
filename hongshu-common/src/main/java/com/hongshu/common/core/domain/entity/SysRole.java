@@ -13,7 +13,7 @@ import java.util.Set;
 /**
  * 角色表 sys_role
  *
- * @Author hongshu
+ * @Author
  */
 public class SysRole extends BaseEntity {
 

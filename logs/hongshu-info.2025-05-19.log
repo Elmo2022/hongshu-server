@@ -1,0 +1,107 @@
+14:30:46.613 [restartedMain] INFO  c.h.HongshuApplication - [logStarting,55] - Starting HongshuApplication using Java 17.0.10 on LAPTOP-9J80MR47 with PID 12460 (D:\hongshu-server\hongshu-server\hongshu-server\target\classes started by 21916 in D:\hongshu-server\hongshu-server)
+14:30:46.620 [restartedMain] INFO  c.h.HongshuApplication - [logStartupProfileInfo,686] - The following 1 profile is active: "druid"
+14:30:46.623 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+14:30:50.256 [restartedMain] INFO  o.a.c.c.AprLifecycleListener - [log,173] - Loaded Apache Tomcat Native library [1.2.36] using APR version [1.7.2].
+14:30:50.256 [restartedMain] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+14:30:50.257 [restartedMain] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+14:30:50.260 [restartedMain] INFO  o.a.c.c.AprLifecycleListener - [log,173] - OpenSSL successfully initialized [OpenSSL 1.1.1t  7 Feb 2023]
+14:30:50.269 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+14:30:50.270 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+14:30:50.270 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.75]
+14:30:50.482 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+14:30:52.988 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,1009] - {dataSource-1} inited
+14:30:56.450 [restartedMain] INFO  o.q.i.StdSchedulerFactory - [instantiate,1220] - Using default implementation for ThreadExecutor
+14:30:56.462 [restartedMain] INFO  o.q.c.SchedulerSignalerImpl - [<init>,61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+14:30:56.462 [restartedMain] INFO  o.q.c.QuartzScheduler - [<init>,229] - Quartz Scheduler v.2.3.2 created.
+14:30:56.463 [restartedMain] INFO  o.q.s.RAMJobStore - [initialize,155] - RAMJobStore initialized.
+14:30:56.463 [restartedMain] INFO  o.q.c.QuartzScheduler - [initialize,294] - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+14:30:56.464 [restartedMain] INFO  o.q.i.StdSchedulerFactory - [instantiate,1374] - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+14:30:56.464 [restartedMain] INFO  o.q.i.StdSchedulerFactory - [instantiate,1378] - Quartz scheduler version: 2.3.2
+14:30:56.464 [restartedMain] INFO  o.q.c.QuartzScheduler - [setJobFactory,2293] - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@2e12f346
+14:30:58.114 [restartedMain] INFO  c.g.d.c.DozerBeanMapperBuilder - [build,544] - Initializing Dozer. Version: 6.5.2, Thread Name: restartedMain
+14:30:58.116 [restartedMain] INFO  c.g.d.c.u.RuntimeUtils - [isOSGi,53] - OSGi support is false
+14:30:58.124 [restartedMain] INFO  c.g.d.c.c.r.LegacyPropertiesSettingsResolver - [processFile,60] - Trying to find Dozer configuration file: dozer.properties
+14:30:58.127 [restartedMain] INFO  c.g.d.c.c.r.LegacyPropertiesSettingsResolver - [processFile,63] - Failed to find dozer.properties via com.github.dozermapper.core.config.resolvers.LegacyPropertiesSettingsResolver.
+14:30:58.133 [restartedMain] INFO  c.g.d.c.e.ELExpressionFactory - [isSupported,60] - javax.el is not supported; Failed to resolve ExpressionFactory, com.sun.el.ExpressionFactoryImpl
+14:30:59.931 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+14:31:00.057 [http-nio-8080-exec-1] INFO  o.a.t.u.h.p.Cookie - [log,173] - A cookie header was received [Hm_lvt_0febd9e3cacb3f627ddac64d52caac39=1719238185,1719239588;] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+14:31:00.064 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+14:31:00.133 [http-nio-8080-exec-1] INFO  c.h.w.w.WebSocketServer - [onOpen,70] - 65加入webSocket！当前人数为=1
+14:31:00.304 [restartedMain] INFO  o.q.c.QuartzScheduler - [start,547] - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+14:31:00.314 [restartedMain] INFO  c.h.HongshuApplication - [logStarted,61] - Started HongshuApplication in 14.124 seconds (JVM running for 15.374)
+14:31:06.257 [http-nio-8080-exec-2] INFO  c.h.w.w.WebSocketServer - [onClose,78] - 65断开webSocket连接！当前人数为=0
+14:31:06.381 [http-nio-8080-exec-3] INFO  c.h.w.w.WebSocketServer - [onOpen,70] - 65加入webSocket！当前人数为=1
+14:31:06.410 [http-nio-8080-exec-7] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ3NDg1OTc3LCJleHAiOjE3NDc1NzIzNzcsInVzZXJJZCI6IjY1In0.xKdWc-rn1gxrQ9r3jDFLMQiofMN4qCeXnH7qX1GKBRU,65
+14:31:06.410 [http-nio-8080-exec-5] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ3NDg1OTc3LCJleHAiOjE3NDc1NzIzNzcsInVzZXJJZCI6IjY1In0.xKdWc-rn1gxrQ9r3jDFLMQiofMN4qCeXnH7qX1GKBRU,65
+14:31:06.411 [http-nio-8080-exec-6] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ3NDg1OTc3LCJleHAiOjE3NDc1NzIzNzcsInVzZXJJZCI6IjY1In0.xKdWc-rn1gxrQ9r3jDFLMQiofMN4qCeXnH7qX1GKBRU,65
+14:31:06.410 [http-nio-8080-exec-4] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ3NDg1OTc3LCJleHAiOjE3NDc1NzIzNzcsInVzZXJJZCI6IjY1In0.xKdWc-rn1gxrQ9r3jDFLMQiofMN4qCeXnH7qX1GKBRU,65
+14:31:06.505 [http-nio-8080-exec-8] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:null,null
+14:31:06.522 [http-nio-8080-exec-8] INFO  c.h.w.s.i.WebAuthUserServiceImpl - [refreshToken,203] - userId:65
+14:31:06.564 [http-nio-8080-exec-9] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ3NjM2MjY2LCJleHAiOjE3NDc3MjI2NjYsInVzZXJJZCI6IjY1In0.2lC_LcelC67rWMhZNURKewtUmHpQ-d8i3T_3gtzHTAg,65
+14:31:06.608 [http-nio-8080-exec-12] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ3NjM2MjY2LCJleHAiOjE3NDc3MjI2NjYsInVzZXJJZCI6IjY1In0.2lC_LcelC67rWMhZNURKewtUmHpQ-d8i3T_3gtzHTAg,65
+14:31:06.609 [http-nio-8080-exec-11] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ3NjM2MjY2LCJleHAiOjE3NDc3MjI2NjYsInVzZXJJZCI6IjY1In0.2lC_LcelC67rWMhZNURKewtUmHpQ-d8i3T_3gtzHTAg,65
+14:31:06.609 [http-nio-8080-exec-10] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ3NjM2MjY2LCJleHAiOjE3NDc3MjI2NjYsInVzZXJJZCI6IjY1In0.2lC_LcelC67rWMhZNURKewtUmHpQ-d8i3T_3gtzHTAg,65
+14:31:06.610 [http-nio-8080-exec-13] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ3NjM2MjY2LCJleHAiOjE3NDc3MjI2NjYsInVzZXJJZCI6IjY1In0.2lC_LcelC67rWMhZNURKewtUmHpQ-d8i3T_3gtzHTAg,65
+14:31:06.627 [http-nio-8080-exec-11] INFO  c.g.d.c.DozerBeanMapperBuilder - [build,544] - Initializing Dozer. Version: 6.5.2, Thread Name: http-nio-8080-exec-11
+14:31:06.628 [http-nio-8080-exec-11] INFO  c.g.d.c.c.r.LegacyPropertiesSettingsResolver - [processFile,60] - Trying to find Dozer configuration file: dozer.properties
+14:31:06.629 [http-nio-8080-exec-11] INFO  c.g.d.c.c.r.LegacyPropertiesSettingsResolver - [processFile,63] - Failed to find dozer.properties via com.github.dozermapper.core.config.resolvers.LegacyPropertiesSettingsResolver.
+14:31:09.178 [http-nio-8080-exec-14] INFO  c.h.w.w.WebSocketServer - [onOpen,70] - 65加入webSocket！当前人数为=2
+14:31:09.210 [http-nio-8080-exec-19] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ3NjM2MjY2LCJleHAiOjE3NDc3MjI2NjYsInVzZXJJZCI6IjY1In0.2lC_LcelC67rWMhZNURKewtUmHpQ-d8i3T_3gtzHTAg,65
+14:31:09.210 [http-nio-8080-exec-15] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ3NjM2MjY2LCJleHAiOjE3NDc3MjI2NjYsInVzZXJJZCI6IjY1In0.2lC_LcelC67rWMhZNURKewtUmHpQ-d8i3T_3gtzHTAg,65
+14:31:09.210 [http-nio-8080-exec-16] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ3NjM2MjY2LCJleHAiOjE3NDc3MjI2NjYsInVzZXJJZCI6IjY1In0.2lC_LcelC67rWMhZNURKewtUmHpQ-d8i3T_3gtzHTAg,65
+14:31:09.210 [http-nio-8080-exec-17] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ3NjM2MjY2LCJleHAiOjE3NDc3MjI2NjYsInVzZXJJZCI6IjY1In0.2lC_LcelC67rWMhZNURKewtUmHpQ-d8i3T_3gtzHTAg,65
+14:31:09.212 [http-nio-8080-exec-18] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ3NjM2MjY2LCJleHAiOjE3NDc3MjI2NjYsInVzZXJJZCI6IjY1In0.2lC_LcelC67rWMhZNURKewtUmHpQ-d8i3T_3gtzHTAg,65
+14:31:09.226 [http-nio-8080-exec-20] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ3NjM2MjY2LCJleHAiOjE3NDc3MjI2NjYsInVzZXJJZCI6IjY1In0.2lC_LcelC67rWMhZNURKewtUmHpQ-d8i3T_3gtzHTAg,65
+14:31:10.720 [http-nio-8080-exec-21] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ3NjM2MjY2LCJleHAiOjE3NDc3MjI2NjYsInVzZXJJZCI6IjY1In0.2lC_LcelC67rWMhZNURKewtUmHpQ-d8i3T_3gtzHTAg,65
+14:31:10.727 [http-nio-8080-exec-22] INFO  c.h.w.w.WebSocketServer - [onOpen,70] - 65加入webSocket！当前人数为=3
+14:31:10.741 [http-nio-8080-exec-23] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ3NjM2MjY2LCJleHAiOjE3NDc3MjI2NjYsInVzZXJJZCI6IjY1In0.2lC_LcelC67rWMhZNURKewtUmHpQ-d8i3T_3gtzHTAg,65
+14:31:10.741 [http-nio-8080-exec-24] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ3NjM2MjY2LCJleHAiOjE3NDc3MjI2NjYsInVzZXJJZCI6IjY1In0.2lC_LcelC67rWMhZNURKewtUmHpQ-d8i3T_3gtzHTAg,65
+14:31:10.743 [http-nio-8080-exec-25] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ3NjM2MjY2LCJleHAiOjE3NDc3MjI2NjYsInVzZXJJZCI6IjY1In0.2lC_LcelC67rWMhZNURKewtUmHpQ-d8i3T_3gtzHTAg,65
+14:31:10.744 [http-nio-8080-exec-26] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ3NjM2MjY2LCJleHAiOjE3NDc3MjI2NjYsInVzZXJJZCI6IjY1In0.2lC_LcelC67rWMhZNURKewtUmHpQ-d8i3T_3gtzHTAg,65
+14:31:10.744 [http-nio-8080-exec-27] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ3NjM2MjY2LCJleHAiOjE3NDc3MjI2NjYsInVzZXJJZCI6IjY1In0.2lC_LcelC67rWMhZNURKewtUmHpQ-d8i3T_3gtzHTAg,65
+14:31:10.761 [http-nio-8080-exec-28] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ3NjM2MjY2LCJleHAiOjE3NDc3MjI2NjYsInVzZXJJZCI6IjY1In0.2lC_LcelC67rWMhZNURKewtUmHpQ-d8i3T_3gtzHTAg,65
+14:31:10.775 [schedule-pool-1] INFO  web-user - [run,52] - [127.0.0.1]内网IP[张天博小号111][Logout][退出成功]
+14:31:10.835 [http-nio-8080-exec-31] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:null,null
+14:31:10.835 [http-nio-8080-exec-29] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:null,null
+14:31:10.835 [http-nio-8080-exec-30] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:null,null
+14:31:10.880 [http-nio-8080-exec-34] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:null,null
+14:31:10.880 [http-nio-8080-exec-32] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:null,null
+14:31:10.881 [http-nio-8080-exec-33] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:null,null
+14:31:10.895 [http-nio-8080-exec-35] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:null,null
+14:31:10.896 [http-nio-8080-exec-36] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:null,null
+14:31:10.911 [http-nio-8080-exec-36] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:null,null
+14:38:58.700 [SpringApplicationShutdownHook] INFO  o.q.c.QuartzScheduler - [standby,585] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+14:38:59.338 [SpringApplicationShutdownHook] INFO  c.h.w.w.WebSocketServer - [onClose,78] - 65断开webSocket连接！当前人数为=2
+14:38:59.360 [SpringApplicationShutdownHook] INFO  c.h.w.w.WebSocketServer - [onClose,78] - 65断开webSocket连接！当前人数为=1
+14:38:59.362 [SpringApplicationShutdownHook] INFO  c.h.w.w.WebSocketServer - [onClose,78] - 65断开webSocket连接！当前人数为=0
+14:39:00.101 [lettuce-nioEventLoop-4-1] INFO  i.l.c.p.CommandHandler - [log,217] - null Unexpected exception during request: java.net.SocketException: Connection reset
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+14:39:00.633 [SpringApplicationShutdownHook] INFO  o.q.c.QuartzScheduler - [shutdown,666] - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+14:39:00.635 [SpringApplicationShutdownHook] INFO  o.q.c.QuartzScheduler - [standby,585] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+14:39:00.640 [SpringApplicationShutdownHook] INFO  o.q.c.QuartzScheduler - [shutdown,740] - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+14:39:00.653 [SpringApplicationShutdownHook] INFO  sys-user - [shutdownAsyncManager,29] - ====关闭后台任务任务线程池====
+14:39:00.667 [lettuce-eventExecutorLoop-1-5] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was localhost/127.0.0.1:6379
+14:39:00.720 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2174] - {dataSource-1} closing ...
+14:39:00.929 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2247] - {dataSource-1} closed

@@ -13,7 +13,7 @@ import java.util.List;
 /**
  * 菜单权限表 sys_menu
  *
- * @Author hongshu
+ * @Author
  */
 public class SysMenu extends BaseEntity {
 

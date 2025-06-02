@@ -8,7 +8,7 @@ import com.fasterxml.jackson.databind.SerializerProvider;
 import com.fasterxml.jackson.databind.ser.ContextualSerializer;
 import com.hongshu.common.annotation.Sensitive;
 import com.hongshu.common.core.domain.model.LoginUser;
-import com.hongshu.common.enums.DesensitizedType;
+import com.hongshu.common.exception.base.enums.DesensitizedType;
 import com.hongshu.common.utils.SecurityUtils;
 
 import java.io.IOException;
@@ -17,7 +17,7 @@ import java.util.Objects;
 /**
  * 数据脱敏序列化过滤
  *
- * @Author hongshu
+ * @Author
  */
 public class SensitiveJsonSerializer extends JsonSerializer<String> implements ContextualSerializer {
 

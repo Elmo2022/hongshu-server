@@ -14,7 +14,7 @@ import static java.lang.annotation.ElementType.*;
 /**
  * 判断是否为数字【注解】
  *
- * @Author hongshu
+ * @Author
  */
 @Target({TYPE, ANNOTATION_TYPE, FIELD})
 @Retention(RetentionPolicy.RUNTIME)

@@ -2,7 +2,7 @@ package com.hongshu.framework.web.service;
 
 import com.hongshu.common.core.domain.entity.SysUser;
 import com.hongshu.common.core.domain.model.LoginUser;
-import com.hongshu.common.enums.UserStatus;
+import com.hongshu.common.exception.base.enums.UserStatus;
 import com.hongshu.common.exception.ServiceException;
 import com.hongshu.common.utils.MessageUtils;
 import com.hongshu.common.utils.StringUtils;

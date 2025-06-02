@@ -152,10 +152,10 @@ oss:
 
 # 七牛云配置
 qiNiuYun:
-  domain:
-  accessKey:
-  secretKey:
-  bucketName:
+  domain: http://svy6szzo9.hb-bkt.clouddn.com
+  accessKey: FHlaoMhvH0ogcAdEUV_l6YD_QPx2tj1-aCKuoaty
+  secretKey: Hc8pnUr9jl1sT9aZz_h1i63IwFl5wpm3r9KXpjFK
+  bucketName: zh-os
 
 # 文件上传路径
 file:

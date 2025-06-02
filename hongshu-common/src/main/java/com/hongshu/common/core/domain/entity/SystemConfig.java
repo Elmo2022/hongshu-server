@@ -9,7 +9,7 @@ import lombok.Data;
 /**
  * 系统配置表
  *
- * @Author hongshu
+ * @Author
  */
 @Data
 @TableName("t_system_config")

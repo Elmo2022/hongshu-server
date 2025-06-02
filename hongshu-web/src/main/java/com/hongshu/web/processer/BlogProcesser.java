@@ -66,4 +66,8 @@ public class BlogProcesser implements PageProcessor {
         return Site.me().setCharset("utf8").setRetryTimes(2).setSleepTime(2000).setTimeOut(4000);
     }
 
+    public static void main(String[] args) {
+
+    }
+
 }

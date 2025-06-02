@@ -3,7 +3,7 @@ package com.hongshu.server.controller.system.web;
 import com.hongshu.common.constant.Constantss;
 import com.hongshu.common.core.controller.BaseController;
 import com.hongshu.common.core.domain.AjaxResult;
-import com.hongshu.common.enums.EStatus;
+import com.hongshu.common.exception.base.enums.EStatus;
 import com.hongshu.common.global.SysConf;
 import com.hongshu.web.service.ISysCommentService;
 import com.hongshu.web.service.ISysMemberService;

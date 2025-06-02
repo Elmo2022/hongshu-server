@@ -15,6 +15,7 @@ import java.net.URL;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
+import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -101,6 +102,13 @@ public class PictureProcesser implements PageProcessor {
 
     public static void main(String[] args) throws Exception {
         PictureProcesser pictureProcesser = new PictureProcesser();
+//        Scanner sc =new Scanner(System.in);
+//        System.out.println("请输入您想爬取图片的关键词==>");
+//        String input = sc.nextLine().trim();
+//        String baseUrl = "https://www.hippopx.com/zh/query?q=";
+//        String url = baseUrl + input;
+//        System.out.println(url);
+//        String html = pictureProcesser.getHtml(url);
         String html = pictureProcesser.getHtml("https://www.hippopx.com/zh/query?q=cat");
         List<String> imageUrl = pictureProcesser.getImageUrl(html);
         List<String> imageSrc = pictureProcesser.getImageSrc(imageUrl);
@@ -123,8 +131,6 @@ public class PictureProcesser implements PageProcessor {
     @Override
     public void process(Page page) {
         int i = 50;
-        //page计数是从2开始的
-        //https://foter.com/search/instant/?q=cat&page=2
         Html html = page.getHtml();
         String url = page.getRequest().getUrl();
         List<String> list = html.regex("<img.*?src=.*?photos.*?/>").all();

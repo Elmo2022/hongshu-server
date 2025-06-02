@@ -5,7 +5,7 @@ import cn.hutool.json.JSONUtil;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.hongshu.common.enums.ResultCodeEnum;
+import com.hongshu.common.exception.base.enums.ResultCodeEnum;
 import com.hongshu.common.exception.web.HongshuException;
 import com.hongshu.common.utils.ConvertUtils;
 import com.hongshu.web.auth.AuthContextHolder;

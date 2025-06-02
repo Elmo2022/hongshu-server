@@ -18,7 +18,7 @@ import org.springframework.context.annotation.Configuration;
 import java.io.IOException;
 
 /**
- * @Author xiaozhao
+ * @Author
  */
 @Configuration
 @Slf4j

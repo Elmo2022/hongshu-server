@@ -14,7 +14,7 @@ import static java.lang.annotation.ElementType.*;
 /**
  * 判断Boolean类型是否为空【注解】
  *
- * @Author hongshu
+ * @Author
  */
 @Target({TYPE, ANNOTATION_TYPE, FIELD})
 @Retention(RetentionPolicy.RUNTIME)

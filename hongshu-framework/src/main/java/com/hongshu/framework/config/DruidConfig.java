@@ -4,7 +4,7 @@ import com.alibaba.druid.pool.DruidDataSource;
 import com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceBuilder;
 import com.alibaba.druid.spring.boot.autoconfigure.properties.DruidStatProperties;
 import com.alibaba.druid.util.Utils;
-import com.hongshu.common.enums.DataSourceType;
+import com.hongshu.common.exception.base.enums.DataSourceType;
 import com.hongshu.common.utils.spring.SpringUtils;
 import com.hongshu.framework.config.properties.DruidProperties;
 import com.hongshu.framework.datasource.DynamicDataSource;

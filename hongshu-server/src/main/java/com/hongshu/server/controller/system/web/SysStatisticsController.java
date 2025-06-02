@@ -1,7 +1,7 @@
 package com.hongshu.server.controller.system.web;
 
 import com.hongshu.common.core.domain.Query;
-import com.hongshu.common.enums.ResponseInfo;
+import com.hongshu.common.exception.base.enums.ResponseInfo;
 import com.hongshu.common.utils.DateUtil;
 import com.hongshu.common.validator.ValidatorUtil;
 import com.hongshu.web.service.ISysStatisticsService;

@@ -7,7 +7,7 @@ import com.hongshu.common.core.domain.entity.SysDept;
 import com.hongshu.common.core.domain.entity.SysRole;
 import com.hongshu.common.core.domain.entity.SysUser;
 import com.hongshu.common.core.page.TableDataInfo;
-import com.hongshu.common.enums.BusinessType;
+import com.hongshu.common.exception.base.enums.BusinessType;
 import com.hongshu.common.utils.SecurityUtils;
 import com.hongshu.common.utils.StringUtils;
 import com.hongshu.common.utils.poi.ExcelUtil;

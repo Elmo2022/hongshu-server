@@ -1,6 +1,6 @@
 package com.hongshu.common.core.domain;
 
-import com.hongshu.common.enums.IntEnum;
+import com.hongshu.common.exception.base.enums.IntEnum;
 import com.hongshu.common.exception.ValidateException;
 import com.hongshu.common.validator.ValidatorUtil;
 import com.hongshu.common.validator.base.BaseAssert;
@@ -17,7 +17,7 @@ import java.util.Optional;
 /**
  * 公共查询参数
  *
- * @Author hongshu
+ * @Author
  */
 @Data
 public class Query extends LinkedHashMap<String, Object> implements Serializable {

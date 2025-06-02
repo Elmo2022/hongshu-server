@@ -3,7 +3,7 @@ package com.hongshu.common.constant;
 /**
  * 返回状态码
  *
- * @Author hongshu
+ * @Author
  */
 public class HttpStatus {
 

@@ -4,7 +4,7 @@ import cn.hutool.json.JSONUtil;
 import com.hongshu.common.annotation.Log;
 import com.hongshu.common.core.controller.BaseController;
 import com.hongshu.common.core.domain.AjaxResult;
-import com.hongshu.common.enums.BusinessType;
+import com.hongshu.common.exception.base.enums.BusinessType;
 import com.hongshu.web.domain.entity.WebNavbar;
 import com.hongshu.web.service.ISysNavbarService;
 import org.springframework.beans.factory.annotation.Autowired;

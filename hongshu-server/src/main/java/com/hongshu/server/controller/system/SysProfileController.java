@@ -6,7 +6,7 @@ import com.hongshu.common.core.controller.BaseController;
 import com.hongshu.common.core.domain.AjaxResult;
 import com.hongshu.common.core.domain.entity.SysUser;
 import com.hongshu.common.core.domain.model.LoginUser;
-import com.hongshu.common.enums.BusinessType;
+import com.hongshu.common.exception.base.enums.BusinessType;
 import com.hongshu.common.utils.SecurityUtils;
 import com.hongshu.common.utils.StringUtils;
 import com.hongshu.common.utils.file.FileUploadUtils;

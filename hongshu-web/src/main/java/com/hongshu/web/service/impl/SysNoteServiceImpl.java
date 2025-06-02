@@ -4,7 +4,7 @@ import cn.hutool.core.util.ObjectUtil;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.hongshu.common.constant.Constantss;
 import com.hongshu.common.core.domain.Query;
-import com.hongshu.common.enums.ResultCodeEnum;
+import com.hongshu.common.exception.base.enums.ResultCodeEnum;
 import com.hongshu.common.exception.web.HongshuException;
 import com.hongshu.common.global.SysConf;
 import com.hongshu.common.utils.*;

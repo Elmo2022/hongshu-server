@@ -3,7 +3,7 @@ package com.hongshu.common.constant;
 /**
  * 用户常量信息
  *
- * @Author hongshu
+ * @Author
  */
 public class UserConstants {
     /**

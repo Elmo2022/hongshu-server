@@ -1,6 +1,6 @@
 package com.hongshu.common.exception.web;
 
-import com.hongshu.common.enums.ResultCodeEnum;
+import com.hongshu.common.exception.base.enums.ResultCodeEnum;
 import com.hongshu.common.utils.MessageUtil;
 import lombok.Data;
 

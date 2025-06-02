@@ -9,7 +9,7 @@ import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.hongshu.common.constant.AuthConstant;
 import com.hongshu.common.constant.Constants;
 import com.hongshu.common.constant.TokenConstant;
-import com.hongshu.common.enums.ResultCodeEnum;
+import com.hongshu.common.exception.base.enums.ResultCodeEnum;
 import com.hongshu.common.exception.web.HongshuException;
 import com.hongshu.common.utils.ConvertUtils;
 import com.hongshu.common.utils.JwtUtils;

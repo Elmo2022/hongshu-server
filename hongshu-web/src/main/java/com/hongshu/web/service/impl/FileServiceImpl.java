@@ -3,9 +3,9 @@ package com.hongshu.web.service.impl;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.hongshu.common.constant.Constantss;
 import com.hongshu.common.core.domain.entity.SystemConfig;
-import com.hongshu.common.enums.EFilePriority;
-import com.hongshu.common.enums.EOpenStatus;
-import com.hongshu.common.enums.EStatus;
+import com.hongshu.common.exception.base.enums.EFilePriority;
+import com.hongshu.common.exception.base.enums.EOpenStatus;
+import com.hongshu.common.exception.base.enums.EStatus;
 import com.hongshu.common.exception.exceptionType.InsertException;
 import com.hongshu.common.global.ErrorCode;
 import com.hongshu.common.global.MessageConf;
@@ -30,7 +30,7 @@ import java.util.*;
 /**
  * 文件服务实现类【上传需调用本地文件服务、七牛云文件服务、Minio文件服务】
  *
- * @Author hongshu
+ * @Author
  */
 @Slf4j
 @Service

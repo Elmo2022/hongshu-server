@@ -1,14 +1,14 @@
 package com.hongshu.common.annotation;
 
 import com.hongshu.common.constant.CacheConstants;
-import com.hongshu.common.enums.LimitType;
+import com.hongshu.common.exception.base.enums.LimitType;
 
 import java.lang.annotation.*;
 
 /**
  * 限流注解
  *
- * @Author hongshu
+ * @Author
  */
 @Target(ElementType.METHOD)
 @Retention(RetentionPolicy.RUNTIME)

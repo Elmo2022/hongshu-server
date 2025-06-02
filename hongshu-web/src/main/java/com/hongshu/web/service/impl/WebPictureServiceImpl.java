@@ -3,7 +3,7 @@ package com.hongshu.web.service.impl;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
-import com.hongshu.common.enums.EStatus;
+import com.hongshu.common.exception.base.enums.EStatus;
 import com.hongshu.common.global.MessageConf;
 import com.hongshu.common.global.SQLConf;
 import com.hongshu.common.global.SysConf;

@@ -6,7 +6,7 @@ import com.hongshu.common.utils.StringUtils;
 /**
  * sql操作工具类
  *
- * @Author hongshu
+ * @Author
  */
 public class SqlUtil {
 

@@ -6,7 +6,7 @@ import io.swagger.annotations.ApiModelProperty;
 /**
  * token常量
  *
- * @Author hongshu
+ * @Author
  */
 @ApiModel("token常量")
 public interface TokenConstant {

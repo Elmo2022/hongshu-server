@@ -5,7 +5,7 @@ import com.hongshu.common.core.controller.BaseController;
 import com.hongshu.common.core.domain.AjaxResult;
 import com.hongshu.common.core.domain.Query;
 import com.hongshu.common.core.page.TableDataInfo;
-import com.hongshu.common.enums.BusinessType;
+import com.hongshu.common.exception.base.enums.BusinessType;
 import com.hongshu.web.domain.vo.CommentVo;
 import com.hongshu.web.service.ISysCommentService;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -8,8 +8,8 @@
         <outputRelativeToContentRoot value="true" />
         <module name="hongshu-quartz" />
         <module name="hongshu-framework" />
-        <module name="hongshu-server" />
         <module name="hongshu-web" />
+        <module name="hongshu-server (1)" />
         <module name="hongshu-common" />
         <module name="hongshu-system" />
       </profile>

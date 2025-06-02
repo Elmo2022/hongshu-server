@@ -6,7 +6,7 @@ import io.swagger.annotations.ApiModelProperty;
 /**
  * 文件上传路径配置
  *
- * @Author hongshu
+ * @Author
  */
 @ApiModel("文件上传路径配置")
 public interface UploadFileConstant {

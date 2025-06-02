@@ -2,7 +2,7 @@ package com.hongshu.server.controller.web;
 
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
-import com.hongshu.common.enums.Result;
+import com.hongshu.common.exception.base.enums.Result;
 import com.hongshu.common.validator.ValidatorUtils;
 import com.hongshu.common.validator.group.AddGroup;
 import com.hongshu.web.domain.dto.CommentDTO;

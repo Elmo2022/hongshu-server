@@ -8,8 +8,8 @@ import org.springframework.stereotype.Service;
 /**
  * 服务实现类
  *
- * @Author hongshu
- * @since 2018-09-17
+ * @Author
+ * @since
  */
 @Service
 public class FileSortServiceImpl extends SuperServiceImpl<SysFileSortMapper, WebFileSort> implements IWebFileSortService {

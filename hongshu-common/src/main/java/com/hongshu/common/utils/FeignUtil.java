@@ -2,7 +2,7 @@ package com.hongshu.common.utils;
 
 import com.hongshu.common.constant.Constantss;
 import com.hongshu.common.core.domain.entity.SystemConfig;
-import com.hongshu.common.enums.EOpenStatus;
+import com.hongshu.common.exception.base.enums.EOpenStatus;
 import com.hongshu.common.exception.exceptionType.QueryException;
 import com.hongshu.common.global.*;
 import lombok.extern.slf4j.Slf4j;

@@ -4,7 +4,7 @@ import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 
 /**
- * @Author hongshu
+ * @Author
  */
 @ApiModel("权限管理常量")
 public interface AuthConstant {

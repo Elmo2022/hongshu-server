@@ -8,7 +8,7 @@ import java.lang.annotation.Target;
 /**
  * 自定义注解 避免接口重复提交
  *
- * @Author hongshu
+ * @Author
  */
 @Target(ElementType.METHOD)
 @Retention(RetentionPolicy.RUNTIME)

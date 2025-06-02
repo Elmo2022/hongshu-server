@@ -3,7 +3,7 @@ package com.hongshu.common.constant;
 /**
  * 公用常量
  *
- * @Author hongshu
+ * @Author
  */
 public interface StringPoolConstant {
 

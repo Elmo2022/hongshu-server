@@ -1,7 +1,7 @@
 package com.hongshu.server.controller.web;
 
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
-import com.hongshu.common.enums.Result;
+import com.hongshu.common.exception.base.enums.Result;
 import com.hongshu.web.domain.vo.NoteSearchVo;
 import com.hongshu.web.service.IWebAlbumNoteRelationService;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,20 +1,20 @@
-00:18:02.111 [restartedMain] INFO  c.h.HongshuApplication - [logStarting,55] - Starting HongshuApplication using Java 17.0.10 on LAPTOP-9J80MR47 with PID 9292 (D:\hongshu-server\hongshu-master\hongshu-server\target\classes started by 21916 in D:\hongshu-server\hongshu-master)
-00:18:02.116 [restartedMain] INFO  c.h.HongshuApplication - [logStartupProfileInfo,686] - The following 1 profile is active: "druid"
-00:18:02.119 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
-00:18:04.398 [restartedMain] INFO  o.a.c.c.AprLifecycleListener - [log,173] - Loaded Apache Tomcat Native library [1.2.36] using APR version [1.7.2].
-00:18:04.399 [restartedMain] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
-00:18:04.399 [restartedMain] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
-00:18:04.403 [restartedMain] INFO  o.a.c.c.AprLifecycleListener - [log,173] - OpenSSL successfully initialized [OpenSSL 1.1.1t  7 Feb 2023]
-00:18:04.413 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
-00:18:04.413 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
-00:18:04.413 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.75]
-00:18:04.654 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
-00:18:06.216 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,1009] - {dataSource-1} inited
-00:18:08.602 [restartedMain] INFO  o.q.i.StdSchedulerFactory - [instantiate,1220] - Using default implementation for ThreadExecutor
-00:18:08.610 [restartedMain] INFO  o.q.c.SchedulerSignalerImpl - [<init>,61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
-00:18:08.611 [restartedMain] INFO  o.q.c.QuartzScheduler - [<init>,229] - Quartz Scheduler v.2.3.2 created.
-00:18:08.611 [restartedMain] INFO  o.q.s.RAMJobStore - [initialize,155] - RAMJobStore initialized.
-00:18:08.612 [restartedMain] INFO  o.q.c.QuartzScheduler - [initialize,294] - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+17:46:49.605 [restartedMain] INFO  c.h.HongshuApplication - [logStarting,55] - Starting HongshuApplication using Java 17.0.10 on LAPTOP-9J80MR47 with PID 8208 (D:\hongshu-server\hongshu-server\hongshu-server\target\classes started by 21916 in D:\hongshu-server\hongshu-server)
+17:46:49.611 [restartedMain] INFO  c.h.HongshuApplication - [logStartupProfileInfo,686] - The following 1 profile is active: "druid"
+17:46:49.612 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+17:46:51.783 [restartedMain] INFO  o.a.c.c.AprLifecycleListener - [log,173] - Loaded Apache Tomcat Native library [1.2.36] using APR version [1.7.2].
+17:46:51.784 [restartedMain] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+17:46:51.784 [restartedMain] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+17:46:51.787 [restartedMain] INFO  o.a.c.c.AprLifecycleListener - [log,173] - OpenSSL successfully initialized [OpenSSL 1.1.1t  7 Feb 2023]
+17:46:51.795 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+17:46:51.795 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+17:46:51.795 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.75]
+17:46:51.987 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+17:46:53.540 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,1009] - {dataSource-1} inited
+17:46:55.742 [restartedMain] INFO  o.q.i.StdSchedulerFactory - [instantiate,1220] - Using default implementation for ThreadExecutor
+17:46:55.750 [restartedMain] INFO  o.q.c.SchedulerSignalerImpl - [<init>,61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+17:46:55.750 [restartedMain] INFO  o.q.c.QuartzScheduler - [<init>,229] - Quartz Scheduler v.2.3.2 created.
+17:46:55.751 [restartedMain] INFO  o.q.s.RAMJobStore - [initialize,155] - RAMJobStore initialized.
+17:46:55.751 [restartedMain] INFO  o.q.c.QuartzScheduler - [initialize,294] - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
   Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
   NOT STARTED.
   Currently in standby mode.
@@ -22,199 +22,124 @@
   Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
   Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
 
-00:18:08.612 [restartedMain] INFO  o.q.i.StdSchedulerFactory - [instantiate,1374] - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
-00:18:08.612 [restartedMain] INFO  o.q.i.StdSchedulerFactory - [instantiate,1378] - Quartz scheduler version: 2.3.2
-00:18:08.612 [restartedMain] INFO  o.q.c.QuartzScheduler - [setJobFactory,2293] - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@3942448a
-00:18:09.365 [restartedMain] INFO  c.g.d.c.DozerBeanMapperBuilder - [build,544] - Initializing Dozer. Version: 6.5.2, Thread Name: restartedMain
-00:18:09.366 [restartedMain] INFO  c.g.d.c.u.RuntimeUtils - [isOSGi,53] - OSGi support is false
-00:18:09.370 [restartedMain] INFO  c.g.d.c.c.r.LegacyPropertiesSettingsResolver - [processFile,60] - Trying to find Dozer configuration file: dozer.properties
-00:18:09.371 [restartedMain] INFO  c.g.d.c.c.r.LegacyPropertiesSettingsResolver - [processFile,63] - Failed to find dozer.properties via com.github.dozermapper.core.config.resolvers.LegacyPropertiesSettingsResolver.
-00:18:09.374 [restartedMain] INFO  c.g.d.c.e.ELExpressionFactory - [isSupported,60] - javax.el is not supported; Failed to resolve ExpressionFactory, com.sun.el.ExpressionFactoryImpl
-00:18:10.548 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
-00:18:10.828 [restartedMain] INFO  o.q.c.QuartzScheduler - [start,547] - Scheduler quartzScheduler_$_NON_CLUSTERED started.
-00:18:10.836 [restartedMain] INFO  c.h.HongshuApplication - [logStarted,61] - Started HongshuApplication in 9.022 seconds (JVM running for 10.268)
-00:21:52.095 [Thread-4] INFO  o.q.c.QuartzScheduler - [standby,585] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
-00:21:52.129 [Thread-4] INFO  o.q.c.QuartzScheduler - [shutdown,666] - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
-00:21:52.129 [Thread-4] INFO  o.q.c.QuartzScheduler - [standby,585] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
-00:21:52.129 [Thread-4] INFO  o.q.c.QuartzScheduler - [shutdown,740] - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
-00:21:52.129 [Thread-4] INFO  sys-user - [shutdownAsyncManager,29] - ====关闭后台任务任务线程池====
-00:21:52.133 [Thread-4] INFO  c.a.d.p.DruidDataSource - [close,2174] - {dataSource-1} closing ...
-00:21:52.140 [Thread-4] INFO  c.a.d.p.DruidDataSource - [close,2247] - {dataSource-1} closed
-00:21:52.366 [restartedMain] INFO  c.h.HongshuApplication - [logStarting,55] - Starting HongshuApplication using Java 17.0.10 on LAPTOP-9J80MR47 with PID 9292 (D:\hongshu-server\hongshu-master\hongshu-server\target\classes started by 21916 in D:\hongshu-server\hongshu-master)
-00:21:52.366 [restartedMain] INFO  c.h.HongshuApplication - [logStartupProfileInfo,686] - The following 1 profile is active: "druid"
-00:21:53.441 [restartedMain] INFO  o.a.c.c.AprLifecycleListener - [log,173] - Loaded Apache Tomcat Native library [1.2.36] using APR version [1.7.2].
-00:21:53.441 [restartedMain] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
-00:21:53.441 [restartedMain] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
-00:21:53.441 [restartedMain] INFO  o.a.c.c.AprLifecycleListener - [log,173] - OpenSSL successfully initialized [OpenSSL 1.1.1t  7 Feb 2023]
-00:21:53.442 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
-00:21:53.442 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
-00:21:53.442 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.75]
-00:21:53.529 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
-00:21:54.169 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,1009] - {dataSource-2} inited
-00:21:55.457 [restartedMain] INFO  o.q.i.StdSchedulerFactory - [instantiate,1220] - Using default implementation for ThreadExecutor
-00:21:55.458 [restartedMain] INFO  o.q.c.SchedulerSignalerImpl - [<init>,61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
-00:21:55.458 [restartedMain] INFO  o.q.c.QuartzScheduler - [<init>,229] - Quartz Scheduler v.2.3.2 created.
-00:21:55.458 [restartedMain] INFO  o.q.s.RAMJobStore - [initialize,155] - RAMJobStore initialized.
-00:21:55.458 [restartedMain] INFO  o.q.c.QuartzScheduler - [initialize,294] - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
-  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
-  NOT STARTED.
-  Currently in standby mode.
-  Number of jobs executed: 0
-  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
-  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
-
-00:21:55.458 [restartedMain] INFO  o.q.i.StdSchedulerFactory - [instantiate,1374] - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
-00:21:55.458 [restartedMain] INFO  o.q.i.StdSchedulerFactory - [instantiate,1378] - Quartz scheduler version: 2.3.2
-00:21:55.458 [restartedMain] INFO  o.q.c.QuartzScheduler - [setJobFactory,2293] - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@a542da0
-00:21:55.908 [restartedMain] INFO  c.g.d.c.DozerBeanMapperBuilder - [build,544] - Initializing Dozer. Version: 6.5.2, Thread Name: restartedMain
-00:21:55.909 [restartedMain] INFO  c.g.d.c.c.r.LegacyPropertiesSettingsResolver - [processFile,60] - Trying to find Dozer configuration file: dozer.properties
-00:21:55.909 [restartedMain] INFO  c.g.d.c.c.r.LegacyPropertiesSettingsResolver - [processFile,63] - Failed to find dozer.properties via com.github.dozermapper.core.config.resolvers.LegacyPropertiesSettingsResolver.
-00:21:56.422 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
-00:21:56.552 [restartedMain] INFO  o.q.c.QuartzScheduler - [start,547] - Scheduler quartzScheduler_$_NON_CLUSTERED started.
-00:21:56.555 [restartedMain] INFO  c.h.HongshuApplication - [logStarted,61] - Started HongshuApplication in 4.238 seconds (JVM running for 235.988)
-00:21:57.876 [Thread-7] INFO  o.q.c.QuartzScheduler - [standby,585] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
-00:21:57.901 [Thread-7] INFO  o.q.c.QuartzScheduler - [shutdown,666] - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
-00:21:57.901 [Thread-7] INFO  o.q.c.QuartzScheduler - [standby,585] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
-00:21:57.901 [Thread-7] INFO  o.q.c.QuartzScheduler - [shutdown,740] - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
-00:21:57.901 [Thread-7] INFO  sys-user - [shutdownAsyncManager,29] - ====关闭后台任务任务线程池====
-00:21:57.904 [Thread-7] INFO  c.a.d.p.DruidDataSource - [close,2174] - {dataSource-2} closing ...
-00:21:57.906 [Thread-7] INFO  c.a.d.p.DruidDataSource - [close,2247] - {dataSource-2} closed
-00:21:58.103 [restartedMain] INFO  c.h.HongshuApplication - [logStarting,55] - Starting HongshuApplication using Java 17.0.10 on LAPTOP-9J80MR47 with PID 9292 (D:\hongshu-server\hongshu-master\hongshu-server\target\classes started by 21916 in D:\hongshu-server\hongshu-master)
-00:21:58.104 [restartedMain] INFO  c.h.HongshuApplication - [logStartupProfileInfo,686] - The following 1 profile is active: "druid"
-00:21:58.948 [restartedMain] INFO  o.a.c.c.AprLifecycleListener - [log,173] - Loaded Apache Tomcat Native library [1.2.36] using APR version [1.7.2].
-00:21:58.948 [restartedMain] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
-00:21:58.948 [restartedMain] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
-00:21:58.948 [restartedMain] INFO  o.a.c.c.AprLifecycleListener - [log,173] - OpenSSL successfully initialized [OpenSSL 1.1.1t  7 Feb 2023]
-00:21:58.948 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
-00:21:58.948 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
-00:21:58.949 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.75]
-00:21:59.031 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
-00:21:59.612 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,1009] - {dataSource-3} inited
-00:22:01.127 [restartedMain] INFO  o.q.i.StdSchedulerFactory - [instantiate,1220] - Using default implementation for ThreadExecutor
-00:22:01.128 [restartedMain] INFO  o.q.c.SchedulerSignalerImpl - [<init>,61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
-00:22:01.128 [restartedMain] INFO  o.q.c.QuartzScheduler - [<init>,229] - Quartz Scheduler v.2.3.2 created.
-00:22:01.128 [restartedMain] INFO  o.q.s.RAMJobStore - [initialize,155] - RAMJobStore initialized.
-00:22:01.128 [restartedMain] INFO  o.q.c.QuartzScheduler - [initialize,294] - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
-  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
-  NOT STARTED.
-  Currently in standby mode.
-  Number of jobs executed: 0
-  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
-  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
-
-00:22:01.129 [restartedMain] INFO  o.q.i.StdSchedulerFactory - [instantiate,1374] - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
-00:22:01.129 [restartedMain] INFO  o.q.i.StdSchedulerFactory - [instantiate,1378] - Quartz scheduler version: 2.3.2
-00:22:01.129 [restartedMain] INFO  o.q.c.QuartzScheduler - [setJobFactory,2293] - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@38462c46
-00:22:01.710 [restartedMain] INFO  c.g.d.c.DozerBeanMapperBuilder - [build,544] - Initializing Dozer. Version: 6.5.2, Thread Name: restartedMain
-00:22:01.710 [restartedMain] INFO  c.g.d.c.c.r.LegacyPropertiesSettingsResolver - [processFile,60] - Trying to find Dozer configuration file: dozer.properties
-00:22:01.711 [restartedMain] INFO  c.g.d.c.c.r.LegacyPropertiesSettingsResolver - [processFile,63] - Failed to find dozer.properties via com.github.dozermapper.core.config.resolvers.LegacyPropertiesSettingsResolver.
-00:22:02.346 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
-00:22:02.469 [restartedMain] INFO  o.q.c.QuartzScheduler - [start,547] - Scheduler quartzScheduler_$_NON_CLUSTERED started.
-00:22:02.472 [restartedMain] INFO  c.h.HongshuApplication - [logStarted,61] - Started HongshuApplication in 4.4 seconds (JVM running for 241.905)
-00:51:26.135 [http-nio-8080-exec-1] INFO  o.a.t.u.h.p.Cookie - [log,173] - A cookie header was received [Hm_lvt_0febd9e3cacb3f627ddac64d52caac39=1719238185,1719239588;] that contained an invalid cookie. That cookie will be ignored.
+17:46:55.751 [restartedMain] INFO  o.q.i.StdSchedulerFactory - [instantiate,1374] - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+17:46:55.751 [restartedMain] INFO  o.q.i.StdSchedulerFactory - [instantiate,1378] - Quartz scheduler version: 2.3.2
+17:46:55.751 [restartedMain] INFO  o.q.c.QuartzScheduler - [setJobFactory,2293] - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@629667c5
+17:46:56.405 [restartedMain] INFO  c.g.d.c.DozerBeanMapperBuilder - [build,544] - Initializing Dozer. Version: 6.5.2, Thread Name: restartedMain
+17:46:56.406 [restartedMain] INFO  c.g.d.c.u.RuntimeUtils - [isOSGi,53] - OSGi support is false
+17:46:56.411 [restartedMain] INFO  c.g.d.c.c.r.LegacyPropertiesSettingsResolver - [processFile,60] - Trying to find Dozer configuration file: dozer.properties
+17:46:56.412 [restartedMain] INFO  c.g.d.c.c.r.LegacyPropertiesSettingsResolver - [processFile,63] - Failed to find dozer.properties via com.github.dozermapper.core.config.resolvers.LegacyPropertiesSettingsResolver.
+17:46:56.415 [restartedMain] INFO  c.g.d.c.e.ELExpressionFactory - [isSupported,60] - javax.el is not supported; Failed to resolve ExpressionFactory, com.sun.el.ExpressionFactoryImpl
+17:46:57.620 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+17:46:57.921 [restartedMain] INFO  o.q.c.QuartzScheduler - [start,547] - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+17:46:57.930 [restartedMain] INFO  c.h.HongshuApplication - [logStarted,61] - Started HongshuApplication in 8.624 seconds (JVM running for 9.992)
+17:47:20.844 [http-nio-8080-exec-1] INFO  o.a.t.u.h.p.Cookie - [log,173] - A cookie header was received [Hm_lvt_0febd9e3cacb3f627ddac64d52caac39=1719238185,1719239588;] that contained an invalid cookie. That cookie will be ignored.
  Note: further occurrences of this error will be logged at DEBUG level.
-00:51:26.142 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-00:51:26.169 [http-nio-8080-exec-4] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNjY0NjA0LCJleHAiOjE3NDA3NTEwMDQsInVzZXJJZCI6IjYyIn0.zAFdfpEeKSleEnU05Wko78U1nNry1MvCR8KfiFR7sEU,62
-00:51:26.169 [http-nio-8080-exec-2] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNjY0NjA0LCJleHAiOjE3NDA3NTEwMDQsInVzZXJJZCI6IjYyIn0.zAFdfpEeKSleEnU05Wko78U1nNry1MvCR8KfiFR7sEU,62
-00:51:26.169 [http-nio-8080-exec-3] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNjY0NjA0LCJleHAiOjE3NDA3NTEwMDQsInVzZXJJZCI6IjYyIn0.zAFdfpEeKSleEnU05Wko78U1nNry1MvCR8KfiFR7sEU,62
-00:51:26.170 [http-nio-8080-exec-5] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNjY0NjA0LCJleHAiOjE3NDA3NTEwMDQsInVzZXJJZCI6IjYyIn0.zAFdfpEeKSleEnU05Wko78U1nNry1MvCR8KfiFR7sEU,62
-00:51:26.197 [http-nio-8080-exec-1] INFO  c.h.w.w.WebSocketServer - [onOpen,70] - 62加入webSocket！当前人数为=1
-00:51:26.241 [http-nio-8080-exec-6] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:null,null
-00:51:26.260 [http-nio-8080-exec-6] INFO  c.h.w.s.i.WebAuthUserServiceImpl - [refreshToken,203] - userId:62
-00:51:26.294 [http-nio-8080-exec-7] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-00:51:26.321 [http-nio-8080-exec-10] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-00:51:26.321 [http-nio-8080-exec-8] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-00:51:26.321 [http-nio-8080-exec-9] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-00:51:26.357 [http-nio-8080-exec-10] INFO  c.g.d.c.DozerBeanMapperBuilder - [build,544] - Initializing Dozer. Version: 6.5.2, Thread Name: http-nio-8080-exec-10
-00:51:26.357 [http-nio-8080-exec-10] INFO  c.g.d.c.c.r.LegacyPropertiesSettingsResolver - [processFile,60] - Trying to find Dozer configuration file: dozer.properties
-00:51:26.358 [http-nio-8080-exec-10] INFO  c.g.d.c.c.r.LegacyPropertiesSettingsResolver - [processFile,63] - Failed to find dozer.properties via com.github.dozermapper.core.config.resolvers.LegacyPropertiesSettingsResolver.
-00:51:26.366 [http-nio-8080-exec-11] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-00:52:06.072 [http-nio-8080-exec-12] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-00:52:09.704 [http-nio-8080-exec-13] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-00:52:09.704 [http-nio-8080-exec-14] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-00:52:11.050 [http-nio-8080-exec-15] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-00:52:11.705 [http-nio-8080-exec-16] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-00:52:14.204 [http-nio-8080-exec-17] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-00:52:14.218 [http-nio-8080-exec-18] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-00:52:15.547 [http-nio-8080-exec-19] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-00:52:15.548 [http-nio-8080-exec-20] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-00:52:16.899 [http-nio-8080-exec-21] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-00:52:17.440 [http-nio-8080-exec-22] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-00:52:18.536 [http-nio-8080-exec-23] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-00:52:18.544 [http-nio-8080-exec-24] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-00:52:19.228 [http-nio-8080-exec-26] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-00:52:19.228 [http-nio-8080-exec-25] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-00:52:20.280 [http-nio-8080-exec-27] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-00:52:20.807 [http-nio-8080-exec-28] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-00:52:21.763 [http-nio-8080-exec-29] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-00:52:21.770 [http-nio-8080-exec-30] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-00:52:22.453 [http-nio-8080-exec-31] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-00:52:22.454 [http-nio-8080-exec-32] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-00:52:23.666 [http-nio-8080-exec-34] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-00:52:24.078 [http-nio-8080-exec-35] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-00:52:25.621 [http-nio-8080-exec-36] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-00:52:25.628 [http-nio-8080-exec-33] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-00:52:26.577 [http-nio-8080-exec-37] INFO  c.h.w.w.WebSocketServer - [onOpen,70] - 62加入webSocket！当前人数为=2
-00:52:26.605 [http-nio-8080-exec-39] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-00:52:26.605 [http-nio-8080-exec-38] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-00:52:26.605 [http-nio-8080-exec-40] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-00:52:26.605 [http-nio-8080-exec-41] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-00:52:26.605 [http-nio-8080-exec-42] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-00:52:26.615 [http-nio-8080-exec-43] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-00:52:28.113 [http-nio-8080-exec-44] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-00:52:30.066 [http-nio-8080-exec-45] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-00:52:32.218 [http-nio-8080-exec-46] INFO  c.h.w.w.WebSocketServer - [onOpen,70] - 62加入webSocket！当前人数为=3
-00:52:32.231 [http-nio-8080-exec-48] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-00:52:32.231 [http-nio-8080-exec-47] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-00:52:32.231 [http-nio-8080-exec-50] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-00:52:32.231 [http-nio-8080-exec-49] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-00:52:32.241 [http-nio-8080-exec-51] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-00:52:37.890 [http-nio-8080-exec-52] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-00:52:40.419 [http-nio-8080-exec-53] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-00:52:42.812 [http-nio-8080-exec-54] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-00:52:44.207 [http-nio-8080-exec-55] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-00:52:50.952 [http-nio-8080-exec-56] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-00:52:53.817 [http-nio-8080-exec-57] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-00:54:47.637 [http-nio-8080-exec-58] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-00:54:52.378 [http-nio-8080-exec-59] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-00:54:55.512 [http-nio-8080-exec-60] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-00:54:58.669 [http-nio-8080-exec-61] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-00:55:02.058 [http-nio-8080-exec-62] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-00:55:04.957 [http-nio-8080-exec-63] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-00:55:08.955 [http-nio-8080-exec-64] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-00:55:10.032 [http-nio-8080-exec-65] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-00:55:10.968 [http-nio-8080-exec-66] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-00:55:13.053 [http-nio-8080-exec-67] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-00:55:14.351 [http-nio-8080-exec-68] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-00:55:19.570 [http-nio-8080-exec-69] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-00:55:19.570 [http-nio-8080-exec-70] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-00:57:05.601 [SpringApplicationShutdownHook] INFO  o.q.c.QuartzScheduler - [standby,585] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
-00:57:05.634 [SpringApplicationShutdownHook] INFO  c.h.w.w.WebSocketServer - [onClose,78] - 62断开webSocket连接！当前人数为=2
-00:57:05.634 [SpringApplicationShutdownHook] INFO  c.h.w.w.WebSocketServer - [onClose,78] - 62断开webSocket连接！当前人数为=1
-00:57:05.634 [SpringApplicationShutdownHook] INFO  c.h.w.w.WebSocketServer - [onClose,78] - 62断开webSocket连接！当前人数为=0
-00:57:05.641 [SpringApplicationShutdownHook] INFO  o.q.c.QuartzScheduler - [shutdown,666] - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
-00:57:05.641 [SpringApplicationShutdownHook] INFO  o.q.c.QuartzScheduler - [standby,585] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
-00:57:05.641 [SpringApplicationShutdownHook] INFO  o.q.c.QuartzScheduler - [shutdown,740] - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
-00:57:05.642 [SpringApplicationShutdownHook] INFO  sys-user - [shutdownAsyncManager,29] - ====关闭后台任务任务线程池====
-00:57:05.644 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2174] - {dataSource-3} closing ...
-00:57:05.645 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2247] - {dataSource-3} closed
-00:57:13.600 [restartedMain] INFO  c.h.HongshuApplication - [logStarting,55] - Starting HongshuApplication using Java 17.0.10 on LAPTOP-9J80MR47 with PID 1372 (D:\hongshu-server\hongshu-master\hongshu-server\target\classes started by 21916 in D:\hongshu-server\hongshu-master)
-00:57:13.603 [restartedMain] INFO  c.h.HongshuApplication - [logStartupProfileInfo,686] - The following 1 profile is active: "druid"
-00:57:13.609 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
-00:57:15.516 [restartedMain] INFO  o.a.c.c.AprLifecycleListener - [log,173] - Loaded Apache Tomcat Native library [1.2.36] using APR version [1.7.2].
-00:57:15.516 [restartedMain] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
-00:57:15.516 [restartedMain] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
-00:57:15.519 [restartedMain] INFO  o.a.c.c.AprLifecycleListener - [log,173] - OpenSSL successfully initialized [OpenSSL 1.1.1t  7 Feb 2023]
-00:57:15.526 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
-00:57:15.526 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
-00:57:15.526 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.75]
-00:57:15.710 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
-00:57:17.077 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,1009] - {dataSource-1} inited
-00:57:19.118 [restartedMain] INFO  o.q.i.StdSchedulerFactory - [instantiate,1220] - Using default implementation for ThreadExecutor
-00:57:19.125 [restartedMain] INFO  o.q.c.SchedulerSignalerImpl - [<init>,61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
-00:57:19.126 [restartedMain] INFO  o.q.c.QuartzScheduler - [<init>,229] - Quartz Scheduler v.2.3.2 created.
-00:57:19.126 [restartedMain] INFO  o.q.s.RAMJobStore - [initialize,155] - RAMJobStore initialized.
-00:57:19.127 [restartedMain] INFO  o.q.c.QuartzScheduler - [initialize,294] - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+17:47:20.849 [http-nio-8080-exec-3] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:47:20.878 [http-nio-8080-exec-3] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:null,null
+17:47:20.878 [http-nio-8080-exec-1] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:null,null
+17:47:20.879 [http-nio-8080-exec-2] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:null,null
+17:47:20.922 [http-nio-8080-exec-3] INFO  c.g.d.c.DozerBeanMapperBuilder - [build,544] - Initializing Dozer. Version: 6.5.2, Thread Name: http-nio-8080-exec-3
+17:47:20.923 [http-nio-8080-exec-3] INFO  c.g.d.c.c.r.LegacyPropertiesSettingsResolver - [processFile,60] - Trying to find Dozer configuration file: dozer.properties
+17:47:20.923 [http-nio-8080-exec-3] INFO  c.g.d.c.c.r.LegacyPropertiesSettingsResolver - [processFile,63] - Failed to find dozer.properties via com.github.dozermapper.core.config.resolvers.LegacyPropertiesSettingsResolver.
+17:47:27.611 [http-nio-8080-exec-6] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:null,null
+17:47:27.611 [http-nio-8080-exec-4] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:null,null
+17:47:27.612 [http-nio-8080-exec-5] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:null,null
+17:47:32.878 [http-nio-8080-exec-9] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:null,null
+17:47:32.879 [http-nio-8080-exec-7] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:null,null
+17:47:32.879 [http-nio-8080-exec-8] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:null,null
+17:47:39.757 [http-nio-8080-exec-10] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:null,null
+17:47:39.906 [schedule-pool-1] INFO  web-user - [run,52] - [127.0.0.1]内网IP[张天博111][Success][登录成功]
+17:47:39.932 [http-nio-8080-exec-11] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTEyMDU5LCJleHAiOjE3NDg1OTg0NTksInVzZXJJZCI6IjYyIn0.1QX2Fh9Gffa6qQuH-V5Xkex0rsmopvBydPQzdTpe4yk,62
+17:47:39.932 [http-nio-8080-exec-13] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTEyMDU5LCJleHAiOjE3NDg1OTg0NTksInVzZXJJZCI6IjYyIn0.1QX2Fh9Gffa6qQuH-V5Xkex0rsmopvBydPQzdTpe4yk,62
+17:47:39.933 [http-nio-8080-exec-12] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTEyMDU5LCJleHAiOjE3NDg1OTg0NTksInVzZXJJZCI6IjYyIn0.1QX2Fh9Gffa6qQuH-V5Xkex0rsmopvBydPQzdTpe4yk,62
+17:47:43.022 [http-nio-8080-exec-15] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTEyMDU5LCJleHAiOjE3NDg1OTg0NTksInVzZXJJZCI6IjYyIn0.1QX2Fh9Gffa6qQuH-V5Xkex0rsmopvBydPQzdTpe4yk,62
+17:47:43.022 [http-nio-8080-exec-16] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTEyMDU5LCJleHAiOjE3NDg1OTg0NTksInVzZXJJZCI6IjYyIn0.1QX2Fh9Gffa6qQuH-V5Xkex0rsmopvBydPQzdTpe4yk,62
+17:47:43.022 [http-nio-8080-exec-18] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTEyMDU5LCJleHAiOjE3NDg1OTg0NTksInVzZXJJZCI6IjYyIn0.1QX2Fh9Gffa6qQuH-V5Xkex0rsmopvBydPQzdTpe4yk,62
+17:47:43.023 [http-nio-8080-exec-17] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTEyMDU5LCJleHAiOjE3NDg1OTg0NTksInVzZXJJZCI6IjYyIn0.1QX2Fh9Gffa6qQuH-V5Xkex0rsmopvBydPQzdTpe4yk,62
+17:47:43.048 [http-nio-8080-exec-14] INFO  c.h.w.w.WebSocketServer - [onOpen,70] - 62加入webSocket！当前人数为=1
+17:47:43.048 [http-nio-8080-exec-19] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTEyMDU5LCJleHAiOjE3NDg1OTg0NTksInVzZXJJZCI6IjYyIn0.1QX2Fh9Gffa6qQuH-V5Xkex0rsmopvBydPQzdTpe4yk,62
+17:47:45.485 [http-nio-8080-exec-20] INFO  c.h.w.w.WebSocketServer - [onOpen,70] - 62加入webSocket！当前人数为=2
+17:47:45.504 [http-nio-8080-exec-23] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTEyMDU5LCJleHAiOjE3NDg1OTg0NTksInVzZXJJZCI6IjYyIn0.1QX2Fh9Gffa6qQuH-V5Xkex0rsmopvBydPQzdTpe4yk,62
+17:47:45.504 [http-nio-8080-exec-21] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTEyMDU5LCJleHAiOjE3NDg1OTg0NTksInVzZXJJZCI6IjYyIn0.1QX2Fh9Gffa6qQuH-V5Xkex0rsmopvBydPQzdTpe4yk,62
+17:47:45.504 [http-nio-8080-exec-22] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTEyMDU5LCJleHAiOjE3NDg1OTg0NTksInVzZXJJZCI6IjYyIn0.1QX2Fh9Gffa6qQuH-V5Xkex0rsmopvBydPQzdTpe4yk,62
+17:47:45.504 [http-nio-8080-exec-25] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTEyMDU5LCJleHAiOjE3NDg1OTg0NTksInVzZXJJZCI6IjYyIn0.1QX2Fh9Gffa6qQuH-V5Xkex0rsmopvBydPQzdTpe4yk,62
+17:47:45.505 [http-nio-8080-exec-24] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTEyMDU5LCJleHAiOjE3NDg1OTg0NTksInVzZXJJZCI6IjYyIn0.1QX2Fh9Gffa6qQuH-V5Xkex0rsmopvBydPQzdTpe4yk,62
+17:47:45.517 [http-nio-8080-exec-26] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTEyMDU5LCJleHAiOjE3NDg1OTg0NTksInVzZXJJZCI6IjYyIn0.1QX2Fh9Gffa6qQuH-V5Xkex0rsmopvBydPQzdTpe4yk,62
+17:47:47.277 [http-nio-8080-exec-27] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTEyMDU5LCJleHAiOjE3NDg1OTg0NTksInVzZXJJZCI6IjYyIn0.1QX2Fh9Gffa6qQuH-V5Xkex0rsmopvBydPQzdTpe4yk,62
+17:47:47.488 [http-nio-8080-exec-28] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTEyMDU5LCJleHAiOjE3NDg1OTg0NTksInVzZXJJZCI6IjYyIn0.1QX2Fh9Gffa6qQuH-V5Xkex0rsmopvBydPQzdTpe4yk,62
+17:47:49.191 [http-nio-8080-exec-29] INFO  c.h.w.w.WebSocketServer - [onOpen,70] - 62加入webSocket！当前人数为=3
+17:47:49.214 [http-nio-8080-exec-32] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTEyMDU5LCJleHAiOjE3NDg1OTg0NTksInVzZXJJZCI6IjYyIn0.1QX2Fh9Gffa6qQuH-V5Xkex0rsmopvBydPQzdTpe4yk,62
+17:47:49.214 [http-nio-8080-exec-31] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTEyMDU5LCJleHAiOjE3NDg1OTg0NTksInVzZXJJZCI6IjYyIn0.1QX2Fh9Gffa6qQuH-V5Xkex0rsmopvBydPQzdTpe4yk,62
+17:47:49.214 [http-nio-8080-exec-33] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTEyMDU5LCJleHAiOjE3NDg1OTg0NTksInVzZXJJZCI6IjYyIn0.1QX2Fh9Gffa6qQuH-V5Xkex0rsmopvBydPQzdTpe4yk,62
+17:47:49.215 [http-nio-8080-exec-30] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTEyMDU5LCJleHAiOjE3NDg1OTg0NTksInVzZXJJZCI6IjYyIn0.1QX2Fh9Gffa6qQuH-V5Xkex0rsmopvBydPQzdTpe4yk,62
+17:47:49.227 [http-nio-8080-exec-34] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTEyMDU5LCJleHAiOjE3NDg1OTg0NTksInVzZXJJZCI6IjYyIn0.1QX2Fh9Gffa6qQuH-V5Xkex0rsmopvBydPQzdTpe4yk,62
+17:47:49.861 [http-nio-8080-exec-35] INFO  c.h.w.w.WebSocketServer - [onOpen,70] - 62加入webSocket！当前人数为=4
+17:47:49.872 [http-nio-8080-exec-37] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTEyMDU5LCJleHAiOjE3NDg1OTg0NTksInVzZXJJZCI6IjYyIn0.1QX2Fh9Gffa6qQuH-V5Xkex0rsmopvBydPQzdTpe4yk,62
+17:47:49.872 [http-nio-8080-exec-36] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTEyMDU5LCJleHAiOjE3NDg1OTg0NTksInVzZXJJZCI6IjYyIn0.1QX2Fh9Gffa6qQuH-V5Xkex0rsmopvBydPQzdTpe4yk,62
+17:47:49.872 [http-nio-8080-exec-38] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTEyMDU5LCJleHAiOjE3NDg1OTg0NTksInVzZXJJZCI6IjYyIn0.1QX2Fh9Gffa6qQuH-V5Xkex0rsmopvBydPQzdTpe4yk,62
+17:47:49.872 [http-nio-8080-exec-39] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTEyMDU5LCJleHAiOjE3NDg1OTg0NTksInVzZXJJZCI6IjYyIn0.1QX2Fh9Gffa6qQuH-V5Xkex0rsmopvBydPQzdTpe4yk,62
+17:47:49.884 [http-nio-8080-exec-40] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTEyMDU5LCJleHAiOjE3NDg1OTg0NTksInVzZXJJZCI6IjYyIn0.1QX2Fh9Gffa6qQuH-V5Xkex0rsmopvBydPQzdTpe4yk,62
+17:47:53.084 [http-nio-8080-exec-41] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTEyMDU5LCJleHAiOjE3NDg1OTg0NTksInVzZXJJZCI6IjYyIn0.1QX2Fh9Gffa6qQuH-V5Xkex0rsmopvBydPQzdTpe4yk,62
+17:47:53.900 [http-nio-8080-exec-42] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTEyMDU5LCJleHAiOjE3NDg1OTg0NTksInVzZXJJZCI6IjYyIn0.1QX2Fh9Gffa6qQuH-V5Xkex0rsmopvBydPQzdTpe4yk,62
+17:47:55.656 [http-nio-8080-exec-43] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTEyMDU5LCJleHAiOjE3NDg1OTg0NTksInVzZXJJZCI6IjYyIn0.1QX2Fh9Gffa6qQuH-V5Xkex0rsmopvBydPQzdTpe4yk,62
+17:47:57.149 [http-nio-8080-exec-44] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTEyMDU5LCJleHAiOjE3NDg1OTg0NTksInVzZXJJZCI6IjYyIn0.1QX2Fh9Gffa6qQuH-V5Xkex0rsmopvBydPQzdTpe4yk,62
+17:55:52.920 [http-nio-8080-exec-45] INFO  c.h.w.w.WebSocketServer - [onOpen,70] - 62加入webSocket！当前人数为=5
+17:55:52.941 [http-nio-8080-exec-47] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTEyMDU5LCJleHAiOjE3NDg1OTg0NTksInVzZXJJZCI6IjYyIn0.1QX2Fh9Gffa6qQuH-V5Xkex0rsmopvBydPQzdTpe4yk,62
+17:55:52.941 [http-nio-8080-exec-48] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTEyMDU5LCJleHAiOjE3NDg1OTg0NTksInVzZXJJZCI6IjYyIn0.1QX2Fh9Gffa6qQuH-V5Xkex0rsmopvBydPQzdTpe4yk,62
+17:55:52.941 [http-nio-8080-exec-46] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTEyMDU5LCJleHAiOjE3NDg1OTg0NTksInVzZXJJZCI6IjYyIn0.1QX2Fh9Gffa6qQuH-V5Xkex0rsmopvBydPQzdTpe4yk,62
+17:55:52.957 [http-nio-8080-exec-49] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTEyMDU5LCJleHAiOjE3NDg1OTg0NTksInVzZXJJZCI6IjYyIn0.1QX2Fh9Gffa6qQuH-V5Xkex0rsmopvBydPQzdTpe4yk,62
+17:56:15.517 [http-nio-8080-exec-50] INFO  c.h.w.w.WebSocketServer - [onOpen,70] - 62加入webSocket！当前人数为=6
+17:56:15.530 [http-nio-8080-exec-53] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTEyMDU5LCJleHAiOjE3NDg1OTg0NTksInVzZXJJZCI6IjYyIn0.1QX2Fh9Gffa6qQuH-V5Xkex0rsmopvBydPQzdTpe4yk,62
+17:56:15.530 [http-nio-8080-exec-51] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTEyMDU5LCJleHAiOjE3NDg1OTg0NTksInVzZXJJZCI6IjYyIn0.1QX2Fh9Gffa6qQuH-V5Xkex0rsmopvBydPQzdTpe4yk,62
+17:56:15.530 [http-nio-8080-exec-52] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTEyMDU5LCJleHAiOjE3NDg1OTg0NTksInVzZXJJZCI6IjYyIn0.1QX2Fh9Gffa6qQuH-V5Xkex0rsmopvBydPQzdTpe4yk,62
+17:56:15.544 [http-nio-8080-exec-55] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTEyMDU5LCJleHAiOjE3NDg1OTg0NTksInVzZXJJZCI6IjYyIn0.1QX2Fh9Gffa6qQuH-V5Xkex0rsmopvBydPQzdTpe4yk,62
+17:56:15.544 [http-nio-8080-exec-54] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTEyMDU5LCJleHAiOjE3NDg1OTg0NTksInVzZXJJZCI6IjYyIn0.1QX2Fh9Gffa6qQuH-V5Xkex0rsmopvBydPQzdTpe4yk,62
+17:57:04.900 [http-nio-8080-exec-56] INFO  c.h.w.w.WebSocketServer - [onOpen,70] - 62加入webSocket！当前人数为=7
+17:57:04.920 [http-nio-8080-exec-57] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTEyMDU5LCJleHAiOjE3NDg1OTg0NTksInVzZXJJZCI6IjYyIn0.1QX2Fh9Gffa6qQuH-V5Xkex0rsmopvBydPQzdTpe4yk,62
+17:57:04.920 [http-nio-8080-exec-59] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTEyMDU5LCJleHAiOjE3NDg1OTg0NTksInVzZXJJZCI6IjYyIn0.1QX2Fh9Gffa6qQuH-V5Xkex0rsmopvBydPQzdTpe4yk,62
+17:57:04.920 [http-nio-8080-exec-60] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTEyMDU5LCJleHAiOjE3NDg1OTg0NTksInVzZXJJZCI6IjYyIn0.1QX2Fh9Gffa6qQuH-V5Xkex0rsmopvBydPQzdTpe4yk,62
+17:57:04.920 [http-nio-8080-exec-58] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTEyMDU5LCJleHAiOjE3NDg1OTg0NTksInVzZXJJZCI6IjYyIn0.1QX2Fh9Gffa6qQuH-V5Xkex0rsmopvBydPQzdTpe4yk,62
+17:57:04.930 [http-nio-8080-exec-61] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTEyMDU5LCJleHAiOjE3NDg1OTg0NTksInVzZXJJZCI6IjYyIn0.1QX2Fh9Gffa6qQuH-V5Xkex0rsmopvBydPQzdTpe4yk,62
+17:57:09.006 [http-nio-8080-exec-62] INFO  c.h.w.w.WebSocketServer - [onOpen,70] - 62加入webSocket！当前人数为=8
+17:57:09.018 [http-nio-8080-exec-63] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTEyMDU5LCJleHAiOjE3NDg1OTg0NTksInVzZXJJZCI6IjYyIn0.1QX2Fh9Gffa6qQuH-V5Xkex0rsmopvBydPQzdTpe4yk,62
+17:57:09.020 [http-nio-8080-exec-66] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTEyMDU5LCJleHAiOjE3NDg1OTg0NTksInVzZXJJZCI6IjYyIn0.1QX2Fh9Gffa6qQuH-V5Xkex0rsmopvBydPQzdTpe4yk,62
+17:57:09.020 [http-nio-8080-exec-65] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTEyMDU5LCJleHAiOjE3NDg1OTg0NTksInVzZXJJZCI6IjYyIn0.1QX2Fh9Gffa6qQuH-V5Xkex0rsmopvBydPQzdTpe4yk,62
+17:57:09.020 [http-nio-8080-exec-64] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTEyMDU5LCJleHAiOjE3NDg1OTg0NTksInVzZXJJZCI6IjYyIn0.1QX2Fh9Gffa6qQuH-V5Xkex0rsmopvBydPQzdTpe4yk,62
+17:57:09.020 [http-nio-8080-exec-67] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTEyMDU5LCJleHAiOjE3NDg1OTg0NTksInVzZXJJZCI6IjYyIn0.1QX2Fh9Gffa6qQuH-V5Xkex0rsmopvBydPQzdTpe4yk,62
+17:57:09.030 [http-nio-8080-exec-68] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTEyMDU5LCJleHAiOjE3NDg1OTg0NTksInVzZXJJZCI6IjYyIn0.1QX2Fh9Gffa6qQuH-V5Xkex0rsmopvBydPQzdTpe4yk,62
+17:57:33.240 [SpringApplicationShutdownHook] INFO  o.q.c.QuartzScheduler - [standby,585] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+17:57:33.267 [SpringApplicationShutdownHook] INFO  c.h.w.w.WebSocketServer - [onClose,78] - 62断开webSocket连接！当前人数为=7
+17:57:33.267 [SpringApplicationShutdownHook] INFO  c.h.w.w.WebSocketServer - [onClose,78] - 62断开webSocket连接！当前人数为=6
+17:57:33.268 [SpringApplicationShutdownHook] INFO  c.h.w.w.WebSocketServer - [onClose,78] - 62断开webSocket连接！当前人数为=5
+17:57:33.268 [SpringApplicationShutdownHook] INFO  c.h.w.w.WebSocketServer - [onClose,78] - 62断开webSocket连接！当前人数为=4
+17:57:33.268 [SpringApplicationShutdownHook] INFO  c.h.w.w.WebSocketServer - [onClose,78] - 62断开webSocket连接！当前人数为=3
+17:57:33.269 [SpringApplicationShutdownHook] INFO  c.h.w.w.WebSocketServer - [onClose,78] - 62断开webSocket连接！当前人数为=2
+17:57:33.269 [SpringApplicationShutdownHook] INFO  c.h.w.w.WebSocketServer - [onClose,78] - 62断开webSocket连接！当前人数为=1
+17:57:33.269 [SpringApplicationShutdownHook] INFO  c.h.w.w.WebSocketServer - [onClose,78] - 62断开webSocket连接！当前人数为=0
+17:57:33.294 [SpringApplicationShutdownHook] INFO  o.q.c.QuartzScheduler - [shutdown,666] - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+17:57:33.294 [SpringApplicationShutdownHook] INFO  o.q.c.QuartzScheduler - [standby,585] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+17:57:33.295 [SpringApplicationShutdownHook] INFO  o.q.c.QuartzScheduler - [shutdown,740] - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+17:57:33.295 [SpringApplicationShutdownHook] INFO  sys-user - [shutdownAsyncManager,29] - ====关闭后台任务任务线程池====
+17:57:33.299 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2174] - {dataSource-1} closing ...
+17:57:33.309 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2247] - {dataSource-1} closed
+22:33:25.391 [restartedMain] INFO  c.h.HongshuApplication - [logStarting,55] - Starting HongshuApplication using Java 17.0.10 on LAPTOP-9J80MR47 with PID 3820 (D:\hongshu-server\hongshu-server\hongshu-server\target\classes started by 21916 in D:\hongshu-server\hongshu-server)
+22:33:25.393 [restartedMain] INFO  c.h.HongshuApplication - [logStartupProfileInfo,686] - The following 1 profile is active: "druid"
+22:33:25.398 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+22:33:27.558 [restartedMain] INFO  o.a.c.c.AprLifecycleListener - [log,173] - Loaded Apache Tomcat Native library [1.2.36] using APR version [1.7.2].
+22:33:27.558 [restartedMain] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+22:33:27.558 [restartedMain] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+22:33:27.570 [restartedMain] INFO  o.a.c.c.AprLifecycleListener - [log,173] - OpenSSL successfully initialized [OpenSSL 1.1.1t  7 Feb 2023]
+22:33:27.577 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+22:33:27.577 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+22:33:27.577 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.75]
+22:33:27.761 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+22:33:29.315 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,1009] - {dataSource-1} inited
+22:33:31.476 [restartedMain] INFO  o.q.i.StdSchedulerFactory - [instantiate,1220] - Using default implementation for ThreadExecutor
+22:33:31.485 [restartedMain] INFO  o.q.c.SchedulerSignalerImpl - [<init>,61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+22:33:31.485 [restartedMain] INFO  o.q.c.QuartzScheduler - [<init>,229] - Quartz Scheduler v.2.3.2 created.
+22:33:31.486 [restartedMain] INFO  o.q.s.RAMJobStore - [initialize,155] - RAMJobStore initialized.
+22:33:31.486 [restartedMain] INFO  o.q.c.QuartzScheduler - [initialize,294] - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
   Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
   NOT STARTED.
   Currently in standby mode.
@@ -222,147 +147,209 @@
   Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
   Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
 
-00:57:19.127 [restartedMain] INFO  o.q.i.StdSchedulerFactory - [instantiate,1374] - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
-00:57:19.127 [restartedMain] INFO  o.q.i.StdSchedulerFactory - [instantiate,1378] - Quartz scheduler version: 2.3.2
-00:57:19.127 [restartedMain] INFO  o.q.c.QuartzScheduler - [setJobFactory,2293] - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@60cd4f05
-00:57:19.760 [restartedMain] INFO  c.g.d.c.DozerBeanMapperBuilder - [build,544] - Initializing Dozer. Version: 6.5.2, Thread Name: restartedMain
-00:57:19.761 [restartedMain] INFO  c.g.d.c.u.RuntimeUtils - [isOSGi,53] - OSGi support is false
-00:57:19.765 [restartedMain] INFO  c.g.d.c.c.r.LegacyPropertiesSettingsResolver - [processFile,60] - Trying to find Dozer configuration file: dozer.properties
-00:57:19.765 [restartedMain] INFO  c.g.d.c.c.r.LegacyPropertiesSettingsResolver - [processFile,63] - Failed to find dozer.properties via com.github.dozermapper.core.config.resolvers.LegacyPropertiesSettingsResolver.
-00:57:19.768 [restartedMain] INFO  c.g.d.c.e.ELExpressionFactory - [isSupported,60] - javax.el is not supported; Failed to resolve ExpressionFactory, com.sun.el.ExpressionFactoryImpl
-00:57:20.847 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
-00:57:21.005 [http-nio-8080-exec-1] INFO  o.a.t.u.h.p.Cookie - [log,173] - A cookie header was received [Hm_lvt_0febd9e3cacb3f627ddac64d52caac39=1719238185,1719239588;] that contained an invalid cookie. That cookie will be ignored.
+22:33:31.486 [restartedMain] INFO  o.q.i.StdSchedulerFactory - [instantiate,1374] - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+22:33:31.486 [restartedMain] INFO  o.q.i.StdSchedulerFactory - [instantiate,1378] - Quartz scheduler version: 2.3.2
+22:33:31.487 [restartedMain] INFO  o.q.c.QuartzScheduler - [setJobFactory,2293] - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@4719e934
+22:33:32.141 [restartedMain] INFO  c.g.d.c.DozerBeanMapperBuilder - [build,544] - Initializing Dozer. Version: 6.5.2, Thread Name: restartedMain
+22:33:32.142 [restartedMain] INFO  c.g.d.c.u.RuntimeUtils - [isOSGi,53] - OSGi support is false
+22:33:32.146 [restartedMain] INFO  c.g.d.c.c.r.LegacyPropertiesSettingsResolver - [processFile,60] - Trying to find Dozer configuration file: dozer.properties
+22:33:32.147 [restartedMain] INFO  c.g.d.c.c.r.LegacyPropertiesSettingsResolver - [processFile,63] - Failed to find dozer.properties via com.github.dozermapper.core.config.resolvers.LegacyPropertiesSettingsResolver.
+22:33:32.150 [restartedMain] INFO  c.g.d.c.e.ELExpressionFactory - [isSupported,60] - javax.el is not supported; Failed to resolve ExpressionFactory, com.sun.el.ExpressionFactoryImpl
+22:33:33.327 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+22:33:33.607 [restartedMain] INFO  o.q.c.QuartzScheduler - [start,547] - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+22:33:33.616 [restartedMain] INFO  c.h.HongshuApplication - [logStarted,61] - Started HongshuApplication in 8.543 seconds (JVM running for 9.856)
+22:33:51.346 [http-nio-8080-exec-1] INFO  o.a.t.u.h.p.Cookie - [log,173] - A cookie header was received [Hm_lvt_0febd9e3cacb3f627ddac64d52caac39=1719238185,1719239588;] that contained an invalid cookie. That cookie will be ignored.
  Note: further occurrences of this error will be logged at DEBUG level.
-00:57:21.010 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-00:57:21.060 [http-nio-8080-exec-1] INFO  c.h.w.w.WebSocketServer - [onOpen,70] - 62加入webSocket！当前人数为=1
-00:57:21.124 [restartedMain] INFO  o.q.c.QuartzScheduler - [start,547] - Scheduler quartzScheduler_$_NON_CLUSTERED started.
-00:57:21.133 [restartedMain] INFO  c.h.HongshuApplication - [logStarted,61] - Started HongshuApplication in 7.795 seconds (JVM running for 8.858)
-00:57:21.384 [http-nio-8080-exec-2] INFO  c.h.w.w.WebSocketServer - [onOpen,70] - 62加入webSocket！当前人数为=2
-00:57:23.397 [http-nio-8080-exec-3] INFO  c.h.w.w.WebSocketServer - [onOpen,70] - 62加入webSocket！当前人数为=3
-00:57:58.748 [http-nio-8080-exec-4] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-00:57:58.830 [http-nio-8080-exec-5] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-00:57:59.492 [http-nio-8080-exec-8] INFO  c.h.w.w.WebSocketServer - [onClose,78] - 62断开webSocket连接！当前人数为=0
-00:57:59.492 [http-nio-8080-exec-6] INFO  c.h.w.w.WebSocketServer - [onClose,78] - 62断开webSocket连接！当前人数为=0
-00:57:59.492 [http-nio-8080-exec-7] INFO  c.h.w.w.WebSocketServer - [onClose,78] - 62断开webSocket连接！当前人数为=0
-00:57:59.615 [http-nio-8080-exec-9] INFO  c.h.w.w.WebSocketServer - [onOpen,70] - 62加入webSocket！当前人数为=1
-00:57:59.644 [http-nio-8080-exec-10] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-00:57:59.644 [http-nio-8080-exec-13] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-00:57:59.644 [http-nio-8080-exec-11] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-00:57:59.645 [http-nio-8080-exec-12] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-00:57:59.657 [http-nio-8080-exec-11] INFO  c.g.d.c.DozerBeanMapperBuilder - [build,544] - Initializing Dozer. Version: 6.5.2, Thread Name: http-nio-8080-exec-11
-00:57:59.658 [http-nio-8080-exec-11] INFO  c.g.d.c.c.r.LegacyPropertiesSettingsResolver - [processFile,60] - Trying to find Dozer configuration file: dozer.properties
-00:57:59.659 [http-nio-8080-exec-11] INFO  c.g.d.c.c.r.LegacyPropertiesSettingsResolver - [processFile,63] - Failed to find dozer.properties via com.github.dozermapper.core.config.resolvers.LegacyPropertiesSettingsResolver.
-00:57:59.679 [http-nio-8080-exec-14] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-00:58:01.061 [http-nio-8080-exec-15] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-00:58:02.393 [http-nio-8080-exec-16] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-00:58:02.393 [http-nio-8080-exec-17] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-00:58:11.750 [http-nio-8080-exec-18] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-00:58:11.759 [http-nio-8080-exec-19] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-00:58:26.463 [http-nio-8080-exec-20] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-01:01:03.879 [http-nio-8080-exec-21] INFO  c.h.w.w.WebSocketServer - [onClose,78] - 62断开webSocket连接！当前人数为=0
-01:01:03.995 [http-nio-8080-exec-22] INFO  c.h.w.w.WebSocketServer - [onOpen,70] - 62加入webSocket！当前人数为=1
-01:01:04.023 [http-nio-8080-exec-26] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-01:01:04.023 [http-nio-8080-exec-24] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-01:01:04.023 [http-nio-8080-exec-23] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-01:01:04.023 [http-nio-8080-exec-25] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-01:01:04.061 [http-nio-8080-exec-27] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-01:01:08.665 [http-nio-8080-exec-28] INFO  c.h.w.w.WebSocketServer - [onOpen,70] - 62加入webSocket！当前人数为=2
-01:01:08.681 [http-nio-8080-exec-31] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-01:01:08.681 [http-nio-8080-exec-29] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-01:01:08.681 [http-nio-8080-exec-30] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-01:01:08.681 [http-nio-8080-exec-32] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-01:01:08.682 [http-nio-8080-exec-33] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-01:01:08.691 [http-nio-8080-exec-34] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-01:01:10.491 [http-nio-8080-exec-35] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-01:01:54.077 [http-nio-8080-exec-36] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-01:01:54.077 [http-nio-8080-exec-37] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-01:02:00.654 [http-nio-8080-exec-38] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-01:02:00.661 [http-nio-8080-exec-39] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-01:02:02.785 [http-nio-8080-exec-40] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-01:02:04.368 [http-nio-8080-exec-41] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-01:02:06.592 [http-nio-8080-exec-42] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-01:02:06.600 [http-nio-8080-exec-43] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-01:02:07.546 [http-nio-8080-exec-45] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-01:02:07.546 [http-nio-8080-exec-44] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-01:02:10.033 [http-nio-8080-exec-46] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-01:02:27.793 [http-nio-8080-exec-47] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-01:24:30.866 [http-nio-8080-exec-49] INFO  c.h.w.w.WebSocketServer - [onClose,78] - 62断开webSocket连接！当前人数为=0
-01:24:30.866 [http-nio-8080-exec-48] INFO  c.h.w.w.WebSocketServer - [onClose,78] - 62断开webSocket连接！当前人数为=0
-01:24:52.226 [http-nio-8080-exec-50] INFO  c.h.w.w.WebSocketServer - [onOpen,70] - 62加入webSocket！当前人数为=1
-01:24:52.269 [http-nio-8080-exec-52] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-01:24:52.269 [http-nio-8080-exec-51] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-01:24:52.269 [http-nio-8080-exec-53] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-01:24:52.269 [http-nio-8080-exec-54] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-01:24:52.319 [http-nio-8080-exec-55] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-01:24:58.252 [http-nio-8080-exec-56] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-01:25:00.077 [http-nio-8080-exec-57] INFO  c.h.w.w.WebSocketServer - [onOpen,70] - 62加入webSocket！当前人数为=2
-01:25:00.119 [http-nio-8080-exec-59] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-01:25:00.119 [http-nio-8080-exec-60] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-01:25:00.119 [http-nio-8080-exec-58] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-01:25:00.119 [http-nio-8080-exec-61] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-01:25:00.130 [http-nio-8080-exec-62] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-01:25:01.518 [http-nio-8080-exec-63] INFO  c.h.w.w.WebSocketServer - [onOpen,70] - 62加入webSocket！当前人数为=3
-01:25:01.535 [http-nio-8080-exec-64] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-01:25:01.535 [http-nio-8080-exec-66] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-01:25:01.535 [http-nio-8080-exec-65] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-01:25:01.535 [http-nio-8080-exec-67] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-01:25:01.536 [http-nio-8080-exec-68] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-01:25:01.555 [http-nio-8080-exec-69] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-01:25:02.640 [http-nio-8080-exec-70] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-01:25:02.867 [http-nio-8080-exec-71] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-01:25:04.520 [http-nio-8080-exec-72] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-01:25:07.680 [http-nio-8080-exec-73] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-01:25:10.316 [http-nio-8080-exec-74] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-01:25:12.097 [http-nio-8080-exec-75] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-01:25:14.327 [http-nio-8080-exec-76] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-01:25:27.225 [http-nio-8080-exec-77] INFO  c.h.w.w.WebSocketServer - [onOpen,70] - 62加入webSocket！当前人数为=4
-01:25:27.238 [http-nio-8080-exec-81] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-01:25:27.238 [http-nio-8080-exec-78] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-01:25:27.238 [http-nio-8080-exec-79] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-01:25:27.239 [http-nio-8080-exec-80] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-01:25:27.267 [http-nio-8080-exec-82] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-01:25:34.157 [http-nio-8080-exec-83] INFO  c.h.w.w.WebSocketServer - [onClose,78] - 62断开webSocket连接！当前人数为=2
-01:25:34.157 [http-nio-8080-exec-84] INFO  c.h.w.w.WebSocketServer - [onClose,78] - 62断开webSocket连接！当前人数为=2
-01:25:34.157 [http-nio-8080-exec-85] INFO  c.h.w.w.WebSocketServer - [onClose,78] - 62断开webSocket连接！当前人数为=1
-01:25:34.158 [http-nio-8080-exec-86] INFO  c.h.w.w.WebSocketServer - [onClose,78] - 62断开webSocket连接！当前人数为=0
-01:25:38.043 [http-nio-8080-exec-87] INFO  c.h.w.w.WebSocketServer - [onOpen,70] - 62加入webSocket！当前人数为=1
-01:25:38.088 [http-nio-8080-exec-88] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-01:25:38.088 [http-nio-8080-exec-91] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-01:25:38.088 [http-nio-8080-exec-89] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-01:25:38.089 [http-nio-8080-exec-90] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-01:25:38.143 [http-nio-8080-exec-92] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-01:25:56.873 [http-nio-8080-exec-93] INFO  c.h.w.w.WebSocketServer - [onClose,78] - 62断开webSocket连接！当前人数为=0
-01:25:57.232 [http-nio-8080-exec-94] INFO  c.h.w.w.WebSocketServer - [onOpen,70] - 62加入webSocket！当前人数为=1
-01:25:57.273 [http-nio-8080-exec-96] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-01:25:57.273 [http-nio-8080-exec-95] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-01:25:57.273 [http-nio-8080-exec-98] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-01:25:57.274 [http-nio-8080-exec-97] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-01:25:57.322 [http-nio-8080-exec-99] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-01:25:59.057 [http-nio-8080-exec-100] INFO  c.h.w.w.WebSocketServer - [onClose,78] - 62断开webSocket连接！当前人数为=0
-01:25:59.220 [http-nio-8080-exec-1] INFO  c.h.w.w.WebSocketServer - [onOpen,70] - 62加入webSocket！当前人数为=1
-01:25:59.253 [http-nio-8080-exec-5] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-01:25:59.253 [http-nio-8080-exec-2] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-01:25:59.253 [http-nio-8080-exec-3] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-01:25:59.253 [http-nio-8080-exec-4] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-01:25:59.302 [http-nio-8080-exec-8] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-01:26:14.466 [http-nio-8080-exec-6] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-01:26:16.819 [http-nio-8080-exec-7] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-01:26:16.819 [http-nio-8080-exec-9] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-01:26:24.287 [http-nio-8080-exec-10] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-01:26:24.294 [http-nio-8080-exec-13] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-01:26:25.144 [http-nio-8080-exec-14] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-01:26:25.144 [http-nio-8080-exec-11] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-01:26:29.977 [http-nio-8080-exec-12] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-01:26:29.991 [http-nio-8080-exec-15] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-01:27:44.936 [http-nio-8080-exec-16] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-01:27:44.936 [http-nio-8080-exec-17] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-01:27:49.946 [http-nio-8080-exec-18] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-01:27:49.953 [http-nio-8080-exec-19] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQwNzYxNDg2LCJleHAiOjE3NDA4NDc4ODYsInVzZXJJZCI6IjYyIn0.oOiWAzgWnRCXa7m9RglsTS7pU1A7gKiYNcCEUyLPVZA,62
-01:28:58.137 [SpringApplicationShutdownHook] INFO  o.q.c.QuartzScheduler - [standby,585] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
-01:28:58.158 [SpringApplicationShutdownHook] INFO  c.h.w.w.WebSocketServer - [onClose,78] - 62断开webSocket连接！当前人数为=0
-01:28:58.172 [SpringApplicationShutdownHook] INFO  o.q.c.QuartzScheduler - [shutdown,666] - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
-01:28:58.172 [SpringApplicationShutdownHook] INFO  o.q.c.QuartzScheduler - [standby,585] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
-01:28:58.172 [SpringApplicationShutdownHook] INFO  o.q.c.QuartzScheduler - [shutdown,740] - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
-01:28:58.172 [SpringApplicationShutdownHook] INFO  sys-user - [shutdownAsyncManager,29] - ====关闭后台任务任务线程池====
-01:28:58.176 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2174] - {dataSource-1} closing ...
-01:28:58.179 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2247] - {dataSource-1} closed
+22:33:51.352 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+22:33:51.409 [http-nio-8080-exec-1] INFO  c.h.w.w.WebSocketServer - [onOpen,70] - 62加入webSocket！当前人数为=1
+22:33:51.441 [http-nio-8080-exec-3] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTEyMDU5LCJleHAiOjE3NDg1OTg0NTksInVzZXJJZCI6IjYyIn0.1QX2Fh9Gffa6qQuH-V5Xkex0rsmopvBydPQzdTpe4yk,62
+22:33:51.441 [http-nio-8080-exec-5] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTEyMDU5LCJleHAiOjE3NDg1OTg0NTksInVzZXJJZCI6IjYyIn0.1QX2Fh9Gffa6qQuH-V5Xkex0rsmopvBydPQzdTpe4yk,62
+22:33:51.441 [http-nio-8080-exec-2] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTEyMDU5LCJleHAiOjE3NDg1OTg0NTksInVzZXJJZCI6IjYyIn0.1QX2Fh9Gffa6qQuH-V5Xkex0rsmopvBydPQzdTpe4yk,62
+22:33:51.441 [http-nio-8080-exec-4] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTEyMDU5LCJleHAiOjE3NDg1OTg0NTksInVzZXJJZCI6IjYyIn0.1QX2Fh9Gffa6qQuH-V5Xkex0rsmopvBydPQzdTpe4yk,62
+22:33:51.520 [http-nio-8080-exec-2] INFO  c.g.d.c.DozerBeanMapperBuilder - [build,544] - Initializing Dozer. Version: 6.5.2, Thread Name: http-nio-8080-exec-2
+22:33:51.521 [http-nio-8080-exec-2] INFO  c.g.d.c.c.r.LegacyPropertiesSettingsResolver - [processFile,60] - Trying to find Dozer configuration file: dozer.properties
+22:33:51.521 [http-nio-8080-exec-2] INFO  c.g.d.c.c.r.LegacyPropertiesSettingsResolver - [processFile,63] - Failed to find dozer.properties via com.github.dozermapper.core.config.resolvers.LegacyPropertiesSettingsResolver.
+22:33:51.549 [http-nio-8080-exec-6] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTEyMDU5LCJleHAiOjE3NDg1OTg0NTksInVzZXJJZCI6IjYyIn0.1QX2Fh9Gffa6qQuH-V5Xkex0rsmopvBydPQzdTpe4yk,62
+22:33:56.721 [http-nio-8080-exec-7] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTEyMDU5LCJleHAiOjE3NDg1OTg0NTksInVzZXJJZCI6IjYyIn0.1QX2Fh9Gffa6qQuH-V5Xkex0rsmopvBydPQzdTpe4yk,62
+22:33:56.774 [schedule-pool-1] INFO  web-user - [run,52] - [127.0.0.1]内网IP[张天博111][Logout][退出成功]
+22:34:07.347 [http-nio-8080-exec-8] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:null,null
+22:34:07.424 [schedule-pool-1] INFO  web-user - [run,52] - [127.0.0.1]内网IP[小红薯][Success][登录成功]
+22:34:07.463 [http-nio-8080-exec-10] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTI5MjQ3LCJleHAiOjE3NDg2MTU2NDcsInVzZXJJZCI6IjY2In0.XDYkkB7Fxys4FQVEd2X8rk3WhXdSsvXlD4eqk7EwWz0,66
+22:34:07.464 [http-nio-8080-exec-9] INFO  c.h.w.w.WebSocketServer - [onOpen,70] - 66加入webSocket！当前人数为=2
+22:34:07.468 [http-nio-8080-exec-11] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTI5MjQ3LCJleHAiOjE3NDg2MTU2NDcsInVzZXJJZCI6IjY2In0.XDYkkB7Fxys4FQVEd2X8rk3WhXdSsvXlD4eqk7EwWz0,66
+22:34:07.471 [http-nio-8080-exec-13] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTI5MjQ3LCJleHAiOjE3NDg2MTU2NDcsInVzZXJJZCI6IjY2In0.XDYkkB7Fxys4FQVEd2X8rk3WhXdSsvXlD4eqk7EwWz0,66
+22:34:07.472 [http-nio-8080-exec-12] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTI5MjQ3LCJleHAiOjE3NDg2MTU2NDcsInVzZXJJZCI6IjY2In0.XDYkkB7Fxys4FQVEd2X8rk3WhXdSsvXlD4eqk7EwWz0,66
+22:34:07.483 [http-nio-8080-exec-14] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTI5MjQ3LCJleHAiOjE3NDg2MTU2NDcsInVzZXJJZCI6IjY2In0.XDYkkB7Fxys4FQVEd2X8rk3WhXdSsvXlD4eqk7EwWz0,66
+22:34:09.869 [http-nio-8080-exec-15] INFO  c.h.w.w.WebSocketServer - [onOpen,70] - 66加入webSocket！当前人数为=3
+22:34:09.895 [http-nio-8080-exec-16] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTI5MjQ3LCJleHAiOjE3NDg2MTU2NDcsInVzZXJJZCI6IjY2In0.XDYkkB7Fxys4FQVEd2X8rk3WhXdSsvXlD4eqk7EwWz0,66
+22:34:09.895 [http-nio-8080-exec-18] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTI5MjQ3LCJleHAiOjE3NDg2MTU2NDcsInVzZXJJZCI6IjY2In0.XDYkkB7Fxys4FQVEd2X8rk3WhXdSsvXlD4eqk7EwWz0,66
+22:34:09.895 [http-nio-8080-exec-17] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTI5MjQ3LCJleHAiOjE3NDg2MTU2NDcsInVzZXJJZCI6IjY2In0.XDYkkB7Fxys4FQVEd2X8rk3WhXdSsvXlD4eqk7EwWz0,66
+22:34:09.895 [http-nio-8080-exec-20] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTI5MjQ3LCJleHAiOjE3NDg2MTU2NDcsInVzZXJJZCI6IjY2In0.XDYkkB7Fxys4FQVEd2X8rk3WhXdSsvXlD4eqk7EwWz0,66
+22:34:09.896 [http-nio-8080-exec-19] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTI5MjQ3LCJleHAiOjE3NDg2MTU2NDcsInVzZXJJZCI6IjY2In0.XDYkkB7Fxys4FQVEd2X8rk3WhXdSsvXlD4eqk7EwWz0,66
+22:34:09.908 [http-nio-8080-exec-21] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTI5MjQ3LCJleHAiOjE3NDg2MTU2NDcsInVzZXJJZCI6IjY2In0.XDYkkB7Fxys4FQVEd2X8rk3WhXdSsvXlD4eqk7EwWz0,66
+22:34:13.971 [http-nio-8080-exec-22] INFO  c.h.w.w.WebSocketServer - [onOpen,70] - 66加入webSocket！当前人数为=4
+22:34:13.984 [http-nio-8080-exec-24] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTI5MjQ3LCJleHAiOjE3NDg2MTU2NDcsInVzZXJJZCI6IjY2In0.XDYkkB7Fxys4FQVEd2X8rk3WhXdSsvXlD4eqk7EwWz0,66
+22:34:13.984 [http-nio-8080-exec-25] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTI5MjQ3LCJleHAiOjE3NDg2MTU2NDcsInVzZXJJZCI6IjY2In0.XDYkkB7Fxys4FQVEd2X8rk3WhXdSsvXlD4eqk7EwWz0,66
+22:34:13.984 [http-nio-8080-exec-23] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTI5MjQ3LCJleHAiOjE3NDg2MTU2NDcsInVzZXJJZCI6IjY2In0.XDYkkB7Fxys4FQVEd2X8rk3WhXdSsvXlD4eqk7EwWz0,66
+22:34:13.995 [http-nio-8080-exec-26] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTI5MjQ3LCJleHAiOjE3NDg2MTU2NDcsInVzZXJJZCI6IjY2In0.XDYkkB7Fxys4FQVEd2X8rk3WhXdSsvXlD4eqk7EwWz0,66
+22:34:15.572 [http-nio-8080-exec-27] INFO  c.h.w.w.WebSocketServer - [onOpen,70] - 66加入webSocket！当前人数为=5
+22:34:15.584 [http-nio-8080-exec-30] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTI5MjQ3LCJleHAiOjE3NDg2MTU2NDcsInVzZXJJZCI6IjY2In0.XDYkkB7Fxys4FQVEd2X8rk3WhXdSsvXlD4eqk7EwWz0,66
+22:34:15.584 [http-nio-8080-exec-28] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTI5MjQ3LCJleHAiOjE3NDg2MTU2NDcsInVzZXJJZCI6IjY2In0.XDYkkB7Fxys4FQVEd2X8rk3WhXdSsvXlD4eqk7EwWz0,66
+22:34:15.584 [http-nio-8080-exec-29] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTI5MjQ3LCJleHAiOjE3NDg2MTU2NDcsInVzZXJJZCI6IjY2In0.XDYkkB7Fxys4FQVEd2X8rk3WhXdSsvXlD4eqk7EwWz0,66
+22:34:15.596 [http-nio-8080-exec-31] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTI5MjQ3LCJleHAiOjE3NDg2MTU2NDcsInVzZXJJZCI6IjY2In0.XDYkkB7Fxys4FQVEd2X8rk3WhXdSsvXlD4eqk7EwWz0,66
+22:34:15.599 [http-nio-8080-exec-32] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTI5MjQ3LCJleHAiOjE3NDg2MTU2NDcsInVzZXJJZCI6IjY2In0.XDYkkB7Fxys4FQVEd2X8rk3WhXdSsvXlD4eqk7EwWz0,66
+22:34:16.056 [http-nio-8080-exec-33] INFO  c.h.w.w.WebSocketServer - [onOpen,70] - 66加入webSocket！当前人数为=6
+22:34:16.081 [http-nio-8080-exec-34] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTI5MjQ3LCJleHAiOjE3NDg2MTU2NDcsInVzZXJJZCI6IjY2In0.XDYkkB7Fxys4FQVEd2X8rk3WhXdSsvXlD4eqk7EwWz0,66
+22:34:16.081 [http-nio-8080-exec-35] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTI5MjQ3LCJleHAiOjE3NDg2MTU2NDcsInVzZXJJZCI6IjY2In0.XDYkkB7Fxys4FQVEd2X8rk3WhXdSsvXlD4eqk7EwWz0,66
+22:34:16.081 [http-nio-8080-exec-37] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTI5MjQ3LCJleHAiOjE3NDg2MTU2NDcsInVzZXJJZCI6IjY2In0.XDYkkB7Fxys4FQVEd2X8rk3WhXdSsvXlD4eqk7EwWz0,66
+22:34:16.081 [http-nio-8080-exec-36] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTI5MjQ3LCJleHAiOjE3NDg2MTU2NDcsInVzZXJJZCI6IjY2In0.XDYkkB7Fxys4FQVEd2X8rk3WhXdSsvXlD4eqk7EwWz0,66
+22:34:16.093 [http-nio-8080-exec-38] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTI5MjQ3LCJleHAiOjE3NDg2MTU2NDcsInVzZXJJZCI6IjY2In0.XDYkkB7Fxys4FQVEd2X8rk3WhXdSsvXlD4eqk7EwWz0,66
+22:34:53.656 [http-nio-8080-exec-39] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTI5MjQ3LCJleHAiOjE3NDg2MTU2NDcsInVzZXJJZCI6IjY2In0.XDYkkB7Fxys4FQVEd2X8rk3WhXdSsvXlD4eqk7EwWz0,66
+22:37:08.415 [http-nio-8080-exec-40] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTI5MjQ3LCJleHAiOjE3NDg2MTU2NDcsInVzZXJJZCI6IjY2In0.XDYkkB7Fxys4FQVEd2X8rk3WhXdSsvXlD4eqk7EwWz0,66
+22:37:08.450 [schedule-pool-2] INFO  web-user - [run,52] - [127.0.0.1]内网IP[小红薯][Logout][退出成功]
+22:37:08.478 [http-nio-8080-exec-41] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:null,null
+22:37:08.478 [http-nio-8080-exec-43] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:null,null
+22:37:08.479 [http-nio-8080-exec-42] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:null,null
+22:37:14.710 [http-nio-8080-exec-46] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:null,null
+22:37:14.710 [http-nio-8080-exec-44] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:null,null
+22:37:14.711 [http-nio-8080-exec-45] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:null,null
+22:37:19.676 [http-nio-8080-exec-47] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:null,null
+22:37:19.704 [schedule-pool-1] INFO  web-user - [run,52] - [127.0.0.1]内网IP[张天博111][Success][登录成功]
+22:37:19.713 [http-nio-8080-exec-49] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTI5NDM5LCJleHAiOjE3NDg2MTU4MzksInVzZXJJZCI6IjYyIn0.lSzOpUKIUUrGmbutpSMQEqvl9btAmpKVFVUhcUzVLQg,62
+22:37:19.713 [http-nio-8080-exec-48] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTI5NDM5LCJleHAiOjE3NDg2MTU4MzksInVzZXJJZCI6IjYyIn0.lSzOpUKIUUrGmbutpSMQEqvl9btAmpKVFVUhcUzVLQg,62
+22:37:19.714 [http-nio-8080-exec-50] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTI5NDM5LCJleHAiOjE3NDg2MTU4MzksInVzZXJJZCI6IjYyIn0.lSzOpUKIUUrGmbutpSMQEqvl9btAmpKVFVUhcUzVLQg,62
+22:37:22.510 [http-nio-8080-exec-51] INFO  c.h.w.w.WebSocketServer - [onClose,78] - 62断开webSocket连接！当前人数为=0
+22:37:22.510 [http-nio-8080-exec-54] INFO  c.h.w.w.WebSocketServer - [onClose,78] - 66断开webSocket连接！当前人数为=0
+22:37:22.510 [http-nio-8080-exec-55] INFO  c.h.w.w.WebSocketServer - [onClose,78] - 66断开webSocket连接！当前人数为=0
+22:37:22.510 [http-nio-8080-exec-53] INFO  c.h.w.w.WebSocketServer - [onClose,78] - 66断开webSocket连接！当前人数为=0
+22:37:22.510 [http-nio-8080-exec-52] INFO  c.h.w.w.WebSocketServer - [onClose,78] - 66断开webSocket连接！当前人数为=0
+22:37:22.510 [http-nio-8080-exec-56] INFO  c.h.w.w.WebSocketServer - [onClose,78] - 66断开webSocket连接！当前人数为=0
+22:37:22.658 [http-nio-8080-exec-57] INFO  c.h.w.w.WebSocketServer - [onOpen,70] - 62加入webSocket！当前人数为=1
+22:37:22.678 [http-nio-8080-exec-61] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTI5NDM5LCJleHAiOjE3NDg2MTU4MzksInVzZXJJZCI6IjYyIn0.lSzOpUKIUUrGmbutpSMQEqvl9btAmpKVFVUhcUzVLQg,62
+22:37:22.678 [http-nio-8080-exec-59] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTI5NDM5LCJleHAiOjE3NDg2MTU4MzksInVzZXJJZCI6IjYyIn0.lSzOpUKIUUrGmbutpSMQEqvl9btAmpKVFVUhcUzVLQg,62
+22:37:22.678 [http-nio-8080-exec-58] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTI5NDM5LCJleHAiOjE3NDg2MTU4MzksInVzZXJJZCI6IjYyIn0.lSzOpUKIUUrGmbutpSMQEqvl9btAmpKVFVUhcUzVLQg,62
+22:37:22.678 [http-nio-8080-exec-60] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTI5NDM5LCJleHAiOjE3NDg2MTU4MzksInVzZXJJZCI6IjYyIn0.lSzOpUKIUUrGmbutpSMQEqvl9btAmpKVFVUhcUzVLQg,62
+22:37:22.695 [http-nio-8080-exec-62] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTI5NDM5LCJleHAiOjE3NDg2MTU4MzksInVzZXJJZCI6IjYyIn0.lSzOpUKIUUrGmbutpSMQEqvl9btAmpKVFVUhcUzVLQg,62
+22:37:23.586 [http-nio-8080-exec-63] INFO  c.h.w.w.WebSocketServer - [onOpen,70] - 62加入webSocket！当前人数为=2
+22:37:23.599 [http-nio-8080-exec-67] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTI5NDM5LCJleHAiOjE3NDg2MTU4MzksInVzZXJJZCI6IjYyIn0.lSzOpUKIUUrGmbutpSMQEqvl9btAmpKVFVUhcUzVLQg,62
+22:37:23.599 [http-nio-8080-exec-65] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTI5NDM5LCJleHAiOjE3NDg2MTU4MzksInVzZXJJZCI6IjYyIn0.lSzOpUKIUUrGmbutpSMQEqvl9btAmpKVFVUhcUzVLQg,62
+22:37:23.599 [http-nio-8080-exec-66] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTI5NDM5LCJleHAiOjE3NDg2MTU4MzksInVzZXJJZCI6IjYyIn0.lSzOpUKIUUrGmbutpSMQEqvl9btAmpKVFVUhcUzVLQg,62
+22:37:23.599 [http-nio-8080-exec-64] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTI5NDM5LCJleHAiOjE3NDg2MTU4MzksInVzZXJJZCI6IjYyIn0.lSzOpUKIUUrGmbutpSMQEqvl9btAmpKVFVUhcUzVLQg,62
+22:37:23.600 [http-nio-8080-exec-68] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTI5NDM5LCJleHAiOjE3NDg2MTU4MzksInVzZXJJZCI6IjYyIn0.lSzOpUKIUUrGmbutpSMQEqvl9btAmpKVFVUhcUzVLQg,62
+22:37:23.611 [http-nio-8080-exec-69] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTI5NDM5LCJleHAiOjE3NDg2MTU4MzksInVzZXJJZCI6IjYyIn0.lSzOpUKIUUrGmbutpSMQEqvl9btAmpKVFVUhcUzVLQg,62
+22:37:25.036 [http-nio-8080-exec-70] INFO  c.h.w.w.WebSocketServer - [onOpen,70] - 62加入webSocket！当前人数为=3
+22:37:25.045 [http-nio-8080-exec-71] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTI5NDM5LCJleHAiOjE3NDg2MTU4MzksInVzZXJJZCI6IjYyIn0.lSzOpUKIUUrGmbutpSMQEqvl9btAmpKVFVUhcUzVLQg,62
+22:37:25.045 [http-nio-8080-exec-72] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTI5NDM5LCJleHAiOjE3NDg2MTU4MzksInVzZXJJZCI6IjYyIn0.lSzOpUKIUUrGmbutpSMQEqvl9btAmpKVFVUhcUzVLQg,62
+22:37:25.045 [http-nio-8080-exec-73] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTI5NDM5LCJleHAiOjE3NDg2MTU4MzksInVzZXJJZCI6IjYyIn0.lSzOpUKIUUrGmbutpSMQEqvl9btAmpKVFVUhcUzVLQg,62
+22:37:25.056 [http-nio-8080-exec-74] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTI5NDM5LCJleHAiOjE3NDg2MTU4MzksInVzZXJJZCI6IjYyIn0.lSzOpUKIUUrGmbutpSMQEqvl9btAmpKVFVUhcUzVLQg,62
+22:38:59.348 [http-nio-8080-exec-75] INFO  c.h.w.w.WebSocketServer - [onOpen,70] - 62加入webSocket！当前人数为=4
+22:38:59.363 [http-nio-8080-exec-77] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTI5NDM5LCJleHAiOjE3NDg2MTU4MzksInVzZXJJZCI6IjYyIn0.lSzOpUKIUUrGmbutpSMQEqvl9btAmpKVFVUhcUzVLQg,62
+22:38:59.363 [http-nio-8080-exec-78] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTI5NDM5LCJleHAiOjE3NDg2MTU4MzksInVzZXJJZCI6IjYyIn0.lSzOpUKIUUrGmbutpSMQEqvl9btAmpKVFVUhcUzVLQg,62
+22:38:59.363 [http-nio-8080-exec-76] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTI5NDM5LCJleHAiOjE3NDg2MTU4MzksInVzZXJJZCI6IjYyIn0.lSzOpUKIUUrGmbutpSMQEqvl9btAmpKVFVUhcUzVLQg,62
+22:38:59.363 [http-nio-8080-exec-79] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTI5NDM5LCJleHAiOjE3NDg2MTU4MzksInVzZXJJZCI6IjYyIn0.lSzOpUKIUUrGmbutpSMQEqvl9btAmpKVFVUhcUzVLQg,62
+22:38:59.363 [http-nio-8080-exec-80] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTI5NDM5LCJleHAiOjE3NDg2MTU4MzksInVzZXJJZCI6IjYyIn0.lSzOpUKIUUrGmbutpSMQEqvl9btAmpKVFVUhcUzVLQg,62
+22:38:59.374 [http-nio-8080-exec-81] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTI5NDM5LCJleHAiOjE3NDg2MTU4MzksInVzZXJJZCI6IjYyIn0.lSzOpUKIUUrGmbutpSMQEqvl9btAmpKVFVUhcUzVLQg,62
+22:39:01.666 [http-nio-8080-exec-82] INFO  c.h.w.w.WebSocketServer - [onOpen,70] - 62加入webSocket！当前人数为=5
+22:39:01.682 [http-nio-8080-exec-84] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTI5NDM5LCJleHAiOjE3NDg2MTU4MzksInVzZXJJZCI6IjYyIn0.lSzOpUKIUUrGmbutpSMQEqvl9btAmpKVFVUhcUzVLQg,62
+22:39:01.682 [http-nio-8080-exec-86] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTI5NDM5LCJleHAiOjE3NDg2MTU4MzksInVzZXJJZCI6IjYyIn0.lSzOpUKIUUrGmbutpSMQEqvl9btAmpKVFVUhcUzVLQg,62
+22:39:01.682 [http-nio-8080-exec-83] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTI5NDM5LCJleHAiOjE3NDg2MTU4MzksInVzZXJJZCI6IjYyIn0.lSzOpUKIUUrGmbutpSMQEqvl9btAmpKVFVUhcUzVLQg,62
+22:39:01.682 [http-nio-8080-exec-85] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTI5NDM5LCJleHAiOjE3NDg2MTU4MzksInVzZXJJZCI6IjYyIn0.lSzOpUKIUUrGmbutpSMQEqvl9btAmpKVFVUhcUzVLQg,62
+22:39:01.693 [http-nio-8080-exec-87] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTI5NDM5LCJleHAiOjE3NDg2MTU4MzksInVzZXJJZCI6IjYyIn0.lSzOpUKIUUrGmbutpSMQEqvl9btAmpKVFVUhcUzVLQg,62
+22:39:03.110 [http-nio-8080-exec-88] INFO  c.h.w.w.WebSocketServer - [onOpen,70] - 62加入webSocket！当前人数为=6
+22:39:03.119 [http-nio-8080-exec-91] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTI5NDM5LCJleHAiOjE3NDg2MTU4MzksInVzZXJJZCI6IjYyIn0.lSzOpUKIUUrGmbutpSMQEqvl9btAmpKVFVUhcUzVLQg,62
+22:39:03.119 [http-nio-8080-exec-90] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTI5NDM5LCJleHAiOjE3NDg2MTU4MzksInVzZXJJZCI6IjYyIn0.lSzOpUKIUUrGmbutpSMQEqvl9btAmpKVFVUhcUzVLQg,62
+22:39:03.119 [http-nio-8080-exec-89] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTI5NDM5LCJleHAiOjE3NDg2MTU4MzksInVzZXJJZCI6IjYyIn0.lSzOpUKIUUrGmbutpSMQEqvl9btAmpKVFVUhcUzVLQg,62
+22:39:03.128 [http-nio-8080-exec-92] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTI5NDM5LCJleHAiOjE3NDg2MTU4MzksInVzZXJJZCI6IjYyIn0.lSzOpUKIUUrGmbutpSMQEqvl9btAmpKVFVUhcUzVLQg,62
+22:39:03.129 [http-nio-8080-exec-93] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTI5NDM5LCJleHAiOjE3NDg2MTU4MzksInVzZXJJZCI6IjYyIn0.lSzOpUKIUUrGmbutpSMQEqvl9btAmpKVFVUhcUzVLQg,62
+22:39:03.559 [http-nio-8080-exec-94] INFO  c.h.w.w.WebSocketServer - [onOpen,70] - 62加入webSocket！当前人数为=7
+22:39:03.571 [http-nio-8080-exec-98] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTI5NDM5LCJleHAiOjE3NDg2MTU4MzksInVzZXJJZCI6IjYyIn0.lSzOpUKIUUrGmbutpSMQEqvl9btAmpKVFVUhcUzVLQg,62
+22:39:03.571 [http-nio-8080-exec-95] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTI5NDM5LCJleHAiOjE3NDg2MTU4MzksInVzZXJJZCI6IjYyIn0.lSzOpUKIUUrGmbutpSMQEqvl9btAmpKVFVUhcUzVLQg,62
+22:39:03.571 [http-nio-8080-exec-96] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTI5NDM5LCJleHAiOjE3NDg2MTU4MzksInVzZXJJZCI6IjYyIn0.lSzOpUKIUUrGmbutpSMQEqvl9btAmpKVFVUhcUzVLQg,62
+22:39:03.571 [http-nio-8080-exec-97] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTI5NDM5LCJleHAiOjE3NDg2MTU4MzksInVzZXJJZCI6IjYyIn0.lSzOpUKIUUrGmbutpSMQEqvl9btAmpKVFVUhcUzVLQg,62
+22:39:03.581 [http-nio-8080-exec-99] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTI5NDM5LCJleHAiOjE3NDg2MTU4MzksInVzZXJJZCI6IjYyIn0.lSzOpUKIUUrGmbutpSMQEqvl9btAmpKVFVUhcUzVLQg,62
+22:39:04.868 [http-nio-8080-exec-100] INFO  c.h.w.w.WebSocketServer - [onOpen,70] - 62加入webSocket！当前人数为=8
+22:39:04.879 [http-nio-8080-exec-1] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTI5NDM5LCJleHAiOjE3NDg2MTU4MzksInVzZXJJZCI6IjYyIn0.lSzOpUKIUUrGmbutpSMQEqvl9btAmpKVFVUhcUzVLQg,62
+22:39:04.879 [http-nio-8080-exec-3] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTI5NDM5LCJleHAiOjE3NDg2MTU4MzksInVzZXJJZCI6IjYyIn0.lSzOpUKIUUrGmbutpSMQEqvl9btAmpKVFVUhcUzVLQg,62
+22:39:04.879 [http-nio-8080-exec-5] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTI5NDM5LCJleHAiOjE3NDg2MTU4MzksInVzZXJJZCI6IjYyIn0.lSzOpUKIUUrGmbutpSMQEqvl9btAmpKVFVUhcUzVLQg,62
+22:39:04.879 [http-nio-8080-exec-2] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTI5NDM5LCJleHAiOjE3NDg2MTU4MzksInVzZXJJZCI6IjYyIn0.lSzOpUKIUUrGmbutpSMQEqvl9btAmpKVFVUhcUzVLQg,62
+22:39:04.880 [http-nio-8080-exec-6] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTI5NDM5LCJleHAiOjE3NDg2MTU4MzksInVzZXJJZCI6IjYyIn0.lSzOpUKIUUrGmbutpSMQEqvl9btAmpKVFVUhcUzVLQg,62
+22:39:04.889 [http-nio-8080-exec-4] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTI5NDM5LCJleHAiOjE3NDg2MTU4MzksInVzZXJJZCI6IjYyIn0.lSzOpUKIUUrGmbutpSMQEqvl9btAmpKVFVUhcUzVLQg,62
+22:39:06.715 [http-nio-8080-exec-7] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTI5NDM5LCJleHAiOjE3NDg2MTU4MzksInVzZXJJZCI6IjYyIn0.lSzOpUKIUUrGmbutpSMQEqvl9btAmpKVFVUhcUzVLQg,62
+22:39:08.331 [http-nio-8080-exec-8] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTI5NDM5LCJleHAiOjE3NDg2MTU4MzksInVzZXJJZCI6IjYyIn0.lSzOpUKIUUrGmbutpSMQEqvl9btAmpKVFVUhcUzVLQg,62
+22:39:11.811 [http-nio-8080-exec-9] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTI5NDM5LCJleHAiOjE3NDg2MTU4MzksInVzZXJJZCI6IjYyIn0.lSzOpUKIUUrGmbutpSMQEqvl9btAmpKVFVUhcUzVLQg,62
+22:39:11.817 [http-nio-8080-exec-10] INFO  c.h.w.w.WebSocketServer - [onOpen,70] - 62加入webSocket！当前人数为=9
+22:39:11.828 [schedule-pool-3] INFO  web-user - [run,52] - [127.0.0.1]内网IP[张天博111][Logout][退出成功]
+22:39:11.828 [http-nio-8080-exec-12] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTI5NDM5LCJleHAiOjE3NDg2MTU4MzksInVzZXJJZCI6IjYyIn0.lSzOpUKIUUrGmbutpSMQEqvl9btAmpKVFVUhcUzVLQg,62
+22:39:11.828 [http-nio-8080-exec-13] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTI5NDM5LCJleHAiOjE3NDg2MTU4MzksInVzZXJJZCI6IjYyIn0.lSzOpUKIUUrGmbutpSMQEqvl9btAmpKVFVUhcUzVLQg,62
+22:39:11.828 [http-nio-8080-exec-11] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTI5NDM5LCJleHAiOjE3NDg2MTU4MzksInVzZXJJZCI6IjYyIn0.lSzOpUKIUUrGmbutpSMQEqvl9btAmpKVFVUhcUzVLQg,62
+22:39:11.828 [http-nio-8080-exec-14] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTI5NDM5LCJleHAiOjE3NDg2MTU4MzksInVzZXJJZCI6IjYyIn0.lSzOpUKIUUrGmbutpSMQEqvl9btAmpKVFVUhcUzVLQg,62
+22:39:11.829 [http-nio-8080-exec-15] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTI5NDM5LCJleHAiOjE3NDg2MTU4MzksInVzZXJJZCI6IjYyIn0.lSzOpUKIUUrGmbutpSMQEqvl9btAmpKVFVUhcUzVLQg,62
+22:39:11.860 [http-nio-8080-exec-18] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:null,null
+22:39:11.860 [http-nio-8080-exec-20] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:null,null
+22:39:11.860 [http-nio-8080-exec-17] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:null,null
+22:39:11.868 [http-nio-8080-exec-21] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:null,null
+22:39:19.093 [http-nio-8080-exec-16] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:null,null
+22:39:19.115 [schedule-pool-2] INFO  web-user - [run,52] - [127.0.0.1]内网IP[小红薯][Success][登录成功]
+22:39:19.122 [http-nio-8080-exec-22] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTI5NTU5LCJleHAiOjE3NDg2MTU5NTksInVzZXJJZCI6IjY2In0.1mzwcC_kiNg_7OotusSk3DoowoPWFWdwbuNNi7_eIIc,66
+22:39:19.122 [http-nio-8080-exec-25] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTI5NTU5LCJleHAiOjE3NDg2MTU5NTksInVzZXJJZCI6IjY2In0.1mzwcC_kiNg_7OotusSk3DoowoPWFWdwbuNNi7_eIIc,66
+22:39:19.122 [http-nio-8080-exec-19] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTI5NTU5LCJleHAiOjE3NDg2MTU5NTksInVzZXJJZCI6IjY2In0.1mzwcC_kiNg_7OotusSk3DoowoPWFWdwbuNNi7_eIIc,66
+22:39:20.144 [http-nio-8080-exec-26] INFO  c.h.w.w.WebSocketServer - [onClose,78] - 62断开webSocket连接！当前人数为=7
+22:39:20.144 [http-nio-8080-exec-24] INFO  c.h.w.w.WebSocketServer - [onClose,78] - 62断开webSocket连接！当前人数为=7
+22:39:20.144 [http-nio-8080-exec-23] INFO  c.h.w.w.WebSocketServer - [onClose,78] - 62断开webSocket连接！当前人数为=6
+22:39:20.145 [http-nio-8080-exec-27] INFO  c.h.w.w.WebSocketServer - [onClose,78] - 62断开webSocket连接！当前人数为=5
+22:39:20.145 [http-nio-8080-exec-24] INFO  c.h.w.w.WebSocketServer - [onClose,78] - 62断开webSocket连接！当前人数为=4
+22:39:20.145 [http-nio-8080-exec-30] INFO  c.h.w.w.WebSocketServer - [onClose,78] - 62断开webSocket连接！当前人数为=3
+22:39:20.145 [http-nio-8080-exec-31] INFO  c.h.w.w.WebSocketServer - [onClose,78] - 62断开webSocket连接！当前人数为=2
+22:39:20.145 [http-nio-8080-exec-29] INFO  c.h.w.w.WebSocketServer - [onClose,78] - 62断开webSocket连接！当前人数为=1
+22:39:20.146 [http-nio-8080-exec-32] INFO  c.h.w.w.WebSocketServer - [onClose,78] - 62断开webSocket连接！当前人数为=0
+22:39:20.288 [http-nio-8080-exec-33] INFO  c.h.w.w.WebSocketServer - [onOpen,70] - 66加入webSocket！当前人数为=1
+22:39:20.310 [http-nio-8080-exec-34] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTI5NTU5LCJleHAiOjE3NDg2MTU5NTksInVzZXJJZCI6IjY2In0.1mzwcC_kiNg_7OotusSk3DoowoPWFWdwbuNNi7_eIIc,66
+22:39:20.310 [http-nio-8080-exec-38] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTI5NTU5LCJleHAiOjE3NDg2MTU5NTksInVzZXJJZCI6IjY2In0.1mzwcC_kiNg_7OotusSk3DoowoPWFWdwbuNNi7_eIIc,66
+22:39:20.310 [http-nio-8080-exec-37] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTI5NTU5LCJleHAiOjE3NDg2MTU5NTksInVzZXJJZCI6IjY2In0.1mzwcC_kiNg_7OotusSk3DoowoPWFWdwbuNNi7_eIIc,66
+22:39:20.311 [http-nio-8080-exec-35] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTI5NTU5LCJleHAiOjE3NDg2MTU5NTksInVzZXJJZCI6IjY2In0.1mzwcC_kiNg_7OotusSk3DoowoPWFWdwbuNNi7_eIIc,66
+22:39:20.325 [http-nio-8080-exec-36] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTI5NTU5LCJleHAiOjE3NDg2MTU5NTksInVzZXJJZCI6IjY2In0.1mzwcC_kiNg_7OotusSk3DoowoPWFWdwbuNNi7_eIIc,66
+22:39:21.476 [http-nio-8080-exec-39] INFO  c.h.w.w.WebSocketServer - [onOpen,70] - 66加入webSocket！当前人数为=2
+22:39:21.489 [http-nio-8080-exec-41] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTI5NTU5LCJleHAiOjE3NDg2MTU5NTksInVzZXJJZCI6IjY2In0.1mzwcC_kiNg_7OotusSk3DoowoPWFWdwbuNNi7_eIIc,66
+22:39:21.489 [http-nio-8080-exec-43] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTI5NTU5LCJleHAiOjE3NDg2MTU5NTksInVzZXJJZCI6IjY2In0.1mzwcC_kiNg_7OotusSk3DoowoPWFWdwbuNNi7_eIIc,66
+22:39:21.489 [http-nio-8080-exec-42] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTI5NTU5LCJleHAiOjE3NDg2MTU5NTksInVzZXJJZCI6IjY2In0.1mzwcC_kiNg_7OotusSk3DoowoPWFWdwbuNNi7_eIIc,66
+22:39:21.489 [http-nio-8080-exec-40] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTI5NTU5LCJleHAiOjE3NDg2MTU5NTksInVzZXJJZCI6IjY2In0.1mzwcC_kiNg_7OotusSk3DoowoPWFWdwbuNNi7_eIIc,66
+22:39:21.490 [http-nio-8080-exec-46] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTI5NTU5LCJleHAiOjE3NDg2MTU5NTksInVzZXJJZCI6IjY2In0.1mzwcC_kiNg_7OotusSk3DoowoPWFWdwbuNNi7_eIIc,66
+22:39:21.500 [http-nio-8080-exec-44] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTI5NTU5LCJleHAiOjE3NDg2MTU5NTksInVzZXJJZCI6IjY2In0.1mzwcC_kiNg_7OotusSk3DoowoPWFWdwbuNNi7_eIIc,66
+22:39:31.854 [http-nio-8080-exec-45] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTI5NTU5LCJleHAiOjE3NDg2MTU5NTksInVzZXJJZCI6IjY2In0.1mzwcC_kiNg_7OotusSk3DoowoPWFWdwbuNNi7_eIIc,66
+22:39:31.922 [http-nio-8080-exec-45] INFO  c.h.w.s.i.WebEsNoteServiceImpl - [delNoteBulkData,336] - 删除索引:note_index
+22:39:32.046 [http-nio-8080-exec-45] INFO  c.h.w.s.i.WebEsNoteServiceImpl - [delNoteBulkData,341] - 创建索引:note_index
+22:39:32.778 [http-nio-8080-exec-45] INFO  c.h.w.s.i.WebEsNoteServiceImpl - [addNoteBulkData,321] - createResponse.resultco.elastic.clients.elasticsearch.core.BulkResponse@1da2f31d
+22:39:33.245 [http-nio-8080-exec-47] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTI5NTU5LCJleHAiOjE3NDg2MTU5NTksInVzZXJJZCI6IjY2In0.1mzwcC_kiNg_7OotusSk3DoowoPWFWdwbuNNi7_eIIc,66
+22:39:33.446 [http-nio-8080-exec-48] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTI5NTU5LCJleHAiOjE3NDg2MTU5NTksInVzZXJJZCI6IjY2In0.1mzwcC_kiNg_7OotusSk3DoowoPWFWdwbuNNi7_eIIc,66
+22:41:13.453 [http-nio-8080-exec-49] INFO  c.h.w.w.WebSocketServer - [onOpen,70] - 66加入webSocket！当前人数为=3
+22:41:13.466 [http-nio-8080-exec-50] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTI5NTU5LCJleHAiOjE3NDg2MTU5NTksInVzZXJJZCI6IjY2In0.1mzwcC_kiNg_7OotusSk3DoowoPWFWdwbuNNi7_eIIc,66
+22:41:13.466 [http-nio-8080-exec-54] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTI5NTU5LCJleHAiOjE3NDg2MTU5NTksInVzZXJJZCI6IjY2In0.1mzwcC_kiNg_7OotusSk3DoowoPWFWdwbuNNi7_eIIc,66
+22:41:13.466 [http-nio-8080-exec-51] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTI5NTU5LCJleHAiOjE3NDg2MTU5NTksInVzZXJJZCI6IjY2In0.1mzwcC_kiNg_7OotusSk3DoowoPWFWdwbuNNi7_eIIc,66
+22:41:13.467 [http-nio-8080-exec-55] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTI5NTU5LCJleHAiOjE3NDg2MTU5NTksInVzZXJJZCI6IjY2In0.1mzwcC_kiNg_7OotusSk3DoowoPWFWdwbuNNi7_eIIc,66
+22:41:13.477 [http-nio-8080-exec-53] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTI5NTU5LCJleHAiOjE3NDg2MTU5NTksInVzZXJJZCI6IjY2In0.1mzwcC_kiNg_7OotusSk3DoowoPWFWdwbuNNi7_eIIc,66
+22:41:13.852 [http-nio-8080-exec-56] INFO  c.h.w.w.WebSocketServer - [onOpen,70] - 66加入webSocket！当前人数为=4
+22:41:13.862 [http-nio-8080-exec-59] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTI5NTU5LCJleHAiOjE3NDg2MTU5NTksInVzZXJJZCI6IjY2In0.1mzwcC_kiNg_7OotusSk3DoowoPWFWdwbuNNi7_eIIc,66
+22:41:13.862 [http-nio-8080-exec-52] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTI5NTU5LCJleHAiOjE3NDg2MTU5NTksInVzZXJJZCI6IjY2In0.1mzwcC_kiNg_7OotusSk3DoowoPWFWdwbuNNi7_eIIc,66
+22:41:13.862 [http-nio-8080-exec-57] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTI5NTU5LCJleHAiOjE3NDg2MTU5NTksInVzZXJJZCI6IjY2In0.1mzwcC_kiNg_7OotusSk3DoowoPWFWdwbuNNi7_eIIc,66
+22:41:13.862 [http-nio-8080-exec-61] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTI5NTU5LCJleHAiOjE3NDg2MTU5NTksInVzZXJJZCI6IjY2In0.1mzwcC_kiNg_7OotusSk3DoowoPWFWdwbuNNi7_eIIc,66
+22:41:13.870 [http-nio-8080-exec-58] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTI5NTU5LCJleHAiOjE3NDg2MTU5NTksInVzZXJJZCI6IjY2In0.1mzwcC_kiNg_7OotusSk3DoowoPWFWdwbuNNi7_eIIc,66
+22:41:16.356 [http-nio-8080-exec-60] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTI5NTU5LCJleHAiOjE3NDg2MTU5NTksInVzZXJJZCI6IjY2In0.1mzwcC_kiNg_7OotusSk3DoowoPWFWdwbuNNi7_eIIc,66
+22:41:16.357 [http-nio-8080-exec-62] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTI5NTU5LCJleHAiOjE3NDg2MTU5NTksInVzZXJJZCI6IjY2In0.1mzwcC_kiNg_7OotusSk3DoowoPWFWdwbuNNi7_eIIc,66
+22:41:18.475 [http-nio-8080-exec-63] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTI5NTU5LCJleHAiOjE3NDg2MTU5NTksInVzZXJJZCI6IjY2In0.1mzwcC_kiNg_7OotusSk3DoowoPWFWdwbuNNi7_eIIc,66
+22:41:18.497 [http-nio-8080-exec-67] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTI5NTU5LCJleHAiOjE3NDg2MTU5NTksInVzZXJJZCI6IjY2In0.1mzwcC_kiNg_7OotusSk3DoowoPWFWdwbuNNi7_eIIc,66
+22:41:21.280 [http-nio-8080-exec-64] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTI5NTU5LCJleHAiOjE3NDg2MTU5NTksInVzZXJJZCI6IjY2In0.1mzwcC_kiNg_7OotusSk3DoowoPWFWdwbuNNi7_eIIc,66
+22:41:22.576 [http-nio-8080-exec-66] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTI5NTU5LCJleHAiOjE3NDg2MTU5NTksInVzZXJJZCI6IjY2In0.1mzwcC_kiNg_7OotusSk3DoowoPWFWdwbuNNi7_eIIc,66
+22:41:22.576 [http-nio-8080-exec-69] INFO  c.h.w.a.UserLoginInterceptor - [preHandle,40] - accessToken:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQ4NTI5NTU5LCJleHAiOjE3NDg2MTU5NTksInVzZXJJZCI6IjY2In0.1mzwcC_kiNg_7OotusSk3DoowoPWFWdwbuNNi7_eIIc,66
+22:43:17.487 [schedule-pool-4] INFO  sys-user - [run,53] - [127.0.0.1]内网IP[admin][Success][登录成功]
+22:50:11.084 [schedule-pool-1] INFO  sys-user - [run,53] - [127.0.0.1]内网IP[admin][Success][登录成功]
+22:52:36.477 [SpringApplicationShutdownHook] INFO  o.q.c.QuartzScheduler - [standby,585] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+22:52:36.499 [SpringApplicationShutdownHook] INFO  c.h.w.w.WebSocketServer - [onClose,78] - 66断开webSocket连接！当前人数为=3
+22:52:36.499 [SpringApplicationShutdownHook] INFO  c.h.w.w.WebSocketServer - [onClose,78] - 66断开webSocket连接！当前人数为=2
+22:52:36.499 [SpringApplicationShutdownHook] INFO  c.h.w.w.WebSocketServer - [onClose,78] - 66断开webSocket连接！当前人数为=1
+22:52:36.500 [SpringApplicationShutdownHook] INFO  c.h.w.w.WebSocketServer - [onClose,78] - 66断开webSocket连接！当前人数为=0
+22:52:36.518 [SpringApplicationShutdownHook] INFO  o.q.c.QuartzScheduler - [shutdown,666] - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+22:52:36.518 [SpringApplicationShutdownHook] INFO  o.q.c.QuartzScheduler - [standby,585] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+22:52:36.518 [SpringApplicationShutdownHook] INFO  o.q.c.QuartzScheduler - [shutdown,740] - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+22:52:36.519 [SpringApplicationShutdownHook] INFO  sys-user - [shutdownAsyncManager,29] - ====关闭后台任务任务线程池====
+22:52:36.522 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2174] - {dataSource-1} closing ...
+22:52:36.526 [SpringApplicationShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2247] - {dataSource-1} closed

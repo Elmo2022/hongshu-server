@@ -2,7 +2,7 @@ package com.hongshu.common.validator.base;
 
 import cn.hutool.core.exceptions.ValidateException;
 import com.hongshu.common.constant.StringPoolConstant;
-import com.hongshu.common.enums.ResponseEnum;
+import com.hongshu.common.exception.base.enums.ResponseEnum;
 import com.hongshu.common.validator.ValidatorUtil;
 
 import java.math.BigDecimal;

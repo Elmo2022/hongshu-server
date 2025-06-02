@@ -4,7 +4,7 @@ import com.hongshu.common.annotation.Log;
 import com.hongshu.common.core.controller.BaseController;
 import com.hongshu.common.core.domain.AjaxResult;
 import com.hongshu.common.core.page.TableDataInfo;
-import com.hongshu.common.enums.BusinessType;
+import com.hongshu.common.exception.base.enums.BusinessType;
 import com.hongshu.system.domain.SysNotice;
 import com.hongshu.system.service.ISysNoticeService;
 import org.springframework.beans.factory.annotation.Autowired;

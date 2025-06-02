@@ -1,7 +1,7 @@
 package com.hongshu.framework.aspectj;
 
 import com.hongshu.common.annotation.RateLimiter;
-import com.hongshu.common.enums.LimitType;
+import com.hongshu.common.exception.base.enums.LimitType;
 import com.hongshu.common.exception.ServiceException;
 import com.hongshu.common.utils.StringUtils;
 import com.hongshu.common.utils.ip.IpUtils;

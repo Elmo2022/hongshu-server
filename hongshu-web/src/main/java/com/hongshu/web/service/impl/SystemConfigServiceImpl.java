@@ -2,9 +2,9 @@ package com.hongshu.web.service.impl;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.hongshu.common.core.domain.entity.SystemConfig;
-import com.hongshu.common.enums.EFilePriority;
-import com.hongshu.common.enums.EOpenStatus;
-import com.hongshu.common.enums.EStatus;
+import com.hongshu.common.exception.base.enums.EFilePriority;
+import com.hongshu.common.exception.base.enums.EOpenStatus;
+import com.hongshu.common.exception.base.enums.EStatus;
 import com.hongshu.common.exception.exceptionType.QueryException;
 import com.hongshu.common.global.*;
 import com.hongshu.common.utils.JsonUtils;

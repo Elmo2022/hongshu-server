@@ -26,7 +26,7 @@ import java.util.List;
 /**
  * 本地对象存储服务 Minio文件上传实现类
  *
- * @Author hongshu
+ * @Author
  */
 @Service
 @Slf4j

@@ -1,6 +1,6 @@
 package com.hongshu.common.filter;
 
-import com.hongshu.common.enums.HttpMethod;
+import com.hongshu.common.exception.base.enums.HttpMethod;
 import com.hongshu.common.utils.StringUtils;
 
 import javax.servlet.*;
